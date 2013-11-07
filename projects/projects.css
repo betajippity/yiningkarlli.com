@@ -1,0 +1,147 @@
+a.projectbutton{
+	color: black;
+	font: 35px "futura-pt";	
+	display: block;
+	width: 425px;
+	height: 243px;
+	padding-top: 182px;
+}
+
+a.projectbutton2{
+	color: black;
+	font: 35px "futura-pt";	
+	display: block;
+	width: 425px;
+	height: 265px;
+	padding-top: 160px;
+}
+
+span.projecttitle {
+	background-color: white;
+	opacity: .5;
+}
+
+div.projectleftbar {
+	float:left;
+	text-align: center ;
+	width:425px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+div.projectrightbar {
+	float:right;
+	width:425px;
+	text-align: center ;
+	margin-left: 50px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+div.projectmenu {
+	margin-top: -25px;
+}
+
+div.projectrow {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width:900px;
+}
+
+div.projectimagerow {
+	margin-top: 25px;
+	margin-bottom: 15px;
+	float:center;
+}
+
+
+div.projecttextleftbar {
+	float:left;
+	text-align: left ;
+	width:425px;
+}
+
+div.projecttextrightbar {
+	float:right;
+	width:425px;
+	text-align: left ;
+	margin-left: 50px;
+}
+
+div.projecttextrow {
+	margin-top: 15px;
+	float:left;
+}
+
+div.caption {
+	padding-left:9px;
+	padding-right:9px;
+	color:white;
+	background-color:#888888;
+	text-align: left ;
+	font-size:14px;
+}
+
+#takua {
+	background: url('../includes/buttons/takua.png') bottom;
+}
+
+#takua:hover{
+	background-position: 0 0;
+}
+
+#multifluids {
+	background: url('../includes/buttons/multifluid.png') bottom;
+}
+
+#multifluids:hover{
+	background-position: 0 0;
+}
+
+#gpupathtracer {
+	background: url('../includes/buttons/gpupathtracer.png') bottom;
+}
+
+#gpupathtracer:hover{
+	background-position: 0 0;
+}
+
+#jello {
+	background: url('../includes/buttons/jello.png') bottom;
+}
+
+#jello:hover{
+	background-position: 0 0;
+}
+
+#smoke {
+	background: url('../includes/buttons/smoke.png') bottom;
+}
+
+#smoke:hover{
+	background-position: 0 0;
+}
+
+#kitchen {
+	background: url('../includes/buttons/kitchen.png') bottom;
+}
+
+#kitchen:hover{
+	background-position: 0 0;
+}
+
+#volumerenderer {
+	background: url('../includes/buttons/volumerenderer.png') bottom;
+}
+
+#volumerenderer:hover{
+	background-position: 0 0;
+}
+
+#pups2011 {
+	background: url('../includes/buttons/pups.png') bottom;
+}
+
+#pups2011:hover{
+	background-position: 0 0;
+}

@@ -1,0 +1,7 @@
+error_log
+cgi-bin/
+demoreel/*.pdf
+files/
+images/
+resume/*.pdf
+test/

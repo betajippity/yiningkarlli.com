@@ -1,0 +1,32 @@
+div.resumeheader{
+	color: #4b4b4b;
+	font: 24px "futura-pt";	
+}
+
+div.resumeleftbar {
+	float:left;
+	text-align: right ;
+	width:250px;
+}
+
+div.resumerightbar {
+	float:right;
+	width:600px;
+	margin-left: 50px;
+}
+
+div.resumerightbarsplitright {
+	float:right;
+	width:275px;
+}
+
+div.resumerightbarsplitleft {
+	float:left;
+	width:300px;
+	text-align: right ;	
+}
+
+div.resumerow {
+	float:left;
+	margin-bottom: 50px;
+}

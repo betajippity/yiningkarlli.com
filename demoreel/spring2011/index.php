@@ -3,9 +3,9 @@
 	<head>
 		<meta http-equiv='Content-Type' content='application/xhtml+xml; charset=utf-8' />
 		<title>YINING KARL LI | Spring 2011 Demoreel</title>
-		<LINK REL="SHORTCUT ICON" HREF="http://www.yiningkarlli.com/includes/favicon.ico" />
-		<link rel="apple-touch-icon" href="http://www.yiningkarlli.com/includes/icon.png"/>
-		<link rel='stylesheet' href='http://www.yiningkarlli.com/css/newcss.css' type='text/css' media='screen' />
+		<LINK REL="SHORTCUT ICON" HREF="../../includes/favicon.ico" />
+		<link rel="apple-touch-icon" href="../../includes/icon.png"/>
+		<link rel='stylesheet' href='../../css/newcss.css' type='text/css' media='screen' />
 		<script type="text/javascript" src="http://use.typekit.com/ivw5chn.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 		<script type="text/javascript">

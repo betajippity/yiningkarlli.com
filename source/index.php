@@ -3,9 +3,9 @@
 	<head>
 		<meta http-equiv='Content-Type' content='application/xhtml+xml; charset=utf-8' />
 		<title>YINING KARL LI | Source</title>
-		<link rel='stylesheet' href='http://www.yiningkarlli.com/css/newcss.css' type='text/css' media='screen' />
-		<link rel="apple-touch-icon" href="http://www.yiningkarlli.com/includes/icon.png"/>
-		<LINK REL="SHORTCUT ICON" HREF="http://www.yiningkarlli.com/includes/favicon.ico" />
+		<link rel='stylesheet' href='../css/newcss.css' type='text/css' media='screen' />
+		<link rel="apple-touch-icon" href="../includes/icon.png"/>
+		<LINK REL="SHORTCUT ICON" HREF="../includes/favicon.ico" />
 		<script type="text/javascript" src="http://use.typekit.com/ivw5chn.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 		<script type="text/javascript">

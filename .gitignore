@@ -1,7 +1,6 @@
 error_log
 cgi-bin/
-demoreel/*.pdf
+*.pdf
 files/
 images/
-resume/*.pdf
 test/

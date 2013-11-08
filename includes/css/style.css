@@ -1,0 +1,161 @@
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font: 17px "proxima-nova", Arial, Verdana, Helvetica, sans-serif;
+	color: white;
+	text-align: left;
+/* 	margin-top: 130px; */
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}
+a:link {
+	color: red;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: red;
+}
+a:hover {
+	text-decoration: none;
+	color: grey;
+}
+a:active {
+	text-decoration: none;
+	color: grey;
+}
+
+a.nav {
+	text-decoration: none;
+	color: white;
+}
+a.nav:link {
+	color: white;
+	text-decoration: none;
+}
+a.nav:visited {
+	text-decoration: none;
+	color:white;
+}
+a.nav:hover {
+	text-decoration: none;
+	color: red;
+}
+a.nav:active {
+	text-decoration: none;
+	color: red;
+}
+
+.content {
+	color: #4b4b4b;
+	width: 900px;
+	position: absolute;
+	left: 50%;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: -460px;
+	margin-top: 20px;
+/* 	padding-bottom: 130px; */
+}
+
+.topmenubar {
+	color:white;
+	background-color: #3d3d3d ;
+	height: 110px ;
+	line-height: 50px ;
+	text-align: center ;
+	width: 100% ;
+	opacity: .9;
+	
+}
+
+.topmenubar .toptext {
+	width: 900px ;
+	left: 50%;
+	margin-left: -450px;
+	margin-top: 5px;
+	position: absolute ;
+	text-align: left ;
+}
+
+.topmenubar .yiningkarlli {
+	font: 60px "futura-pt";
+	font-weight: 500;
+	margin-top: -5px;
+}
+
+.topmenubar .codeandvisuals {
+	font: 30px "futura-pt";
+	font-weight: 500;
+	margin-left: 80px;
+	margin-top: -20px;
+}
+
+.topmenubar .topmenu {
+	font: 20px "futura-pt";
+	font-weight: 500;
+	text-align: right ;
+	margin-top: -35px;
+	z-index: 1000 ;
+}
+
+.topmenubar-hover {
+	color:white;
+	background-color: #3d3d3d ;
+	height: 45px ;
+	line-height: 50px ;
+	position: fixed ;
+	text-align: center ;
+	width: 100% ;
+	z-index: 1000 ;
+	opacity: .9;
+	margin-top: -94px;
+}
+
+.topmenubar-hover .codeandvisuals {
+	font: 0px "futura-pt";
+	font-weight: 0;
+}
+
+.topmenubar-hover .toptext {
+	width: 900px ;
+	left: 50%;
+	margin-left: -450px;
+	margin-top: 5px;
+	position: fixed;
+	text-align: left ;
+	z-index: 1000 ;
+}
+
+.topmenubar-hover .topmenu {
+	font: 20px "futura-pt";
+	font-weight: 500;
+	text-align: right ;
+	margin-top: -30px;
+}
+
+.topmenubar-hover .yiningkarlli {
+	font: 30px "futura-pt";
+	font-weight: 500;
+	margin-top: -2.5px;
+}
+
+div.topbar-s {
+	top: 0px ;
+}
+
+div.title{
+	color: #4b4b4b;
+	font: 32px "futura-pt";	
+}
+
+div.subtitle{
+	color: #4b4b4b;
+	font: 22px "futura-pt";	
+}
+

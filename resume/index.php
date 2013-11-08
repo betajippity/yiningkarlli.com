@@ -9,7 +9,6 @@
 		<link rel='stylesheet' href='resume.css' type='text/css' media='screen' />
 
 		<script type="text/javascript" src="../includes/js/jquery.js"></script>
-		<script type="text/javascript" src="../includes/js/smoothscroll.js"></script>
 		<script type="text/javascript" src="../includes/js/navbar.js"></script>
 		
 		<script type="text/javascript" src="http://use.typekit.com/ivw5chn.js"></script>
@@ -69,34 +68,6 @@
 				</div>
 			</div>
 			
-			<!-- COURSEWORK SECTION -->
-			
-			<div class = "resumerow">
-				<div class="resumeleftbar">
-					<div class="resumeheader">RELEVANT COURSEWORK</div>
-				</div>
-				<div class="resumerightbar">
-					<div class="resumerightbarsplitleft">
-						Algorithms and Data Structures (CS)<p>
-						Programming Languages and Techniques I & II (CS)<p>
-						Computer Architecture (CS)<p>
-						Intro to Computer Graphics (CS)<p>
-						Computer Graphics (CS)<p>
-						Automata, Computability, and Complexity (CS)<p>
-						
-					</div>
-					<div class="resumerightbarsplitright">
-						Physically Based Animation (CS)<p>
-						Mathematical Foundations of Computer Science (CS)<p>
-						GPU Programming	(CS)<p>
-						Digital Design Foundations (Art)<p>
-						Drawing (Art)<p>
-						3D Computer Modeling (Art)<p>
-						Computer Animation (Art)<p>
-					</div>
-				</div>
-			</div>
-			
 			<!-- ACTIVITIES SECTION -->
 			
 			<div class = "resumerow">
@@ -145,10 +116,11 @@
 					<div class="resumerightbarsplitright">
 						<div class="subtitle">Graphics</div><p>
 						Renderman/Slim/Alfred (Pixar)<p>
-						Maya (Autodesk)<p>
-						Mudbox (Autodesk)<p>
 						Vray (Chaos Group)<p>
 						Mentalray (NVIDIA)<p>
+						Maya (Autodesk)<p>
+						Houdini (SideFX)<p>
+						Mudbox (Autodesk)<p>
 						Photoshop (Adobe)<p>
 						After Effects (Adobe)<p>
 						Premiere Pro (Adobe)<p>
@@ -158,8 +130,6 @@
 						Lightroom (Adobe)<p>
 						Final Cut Pro (Apple)<p>
 						Aperture (Apple)<p>
-						Shake (Apple)<p>
-						Houdini (SideFX)<p>
 					</div>
 				</div>
 			</div>

@@ -8,7 +8,6 @@
 		<link rel='stylesheet' href="includes/css/style.css" type='text/css' media='screen' />
 		
 		<script type="text/javascript" src="includes/js/jquery.js"></script>
-		<script type="text/javascript" src="includes/js/smoothscroll.js"></script>
 		<script type="text/javascript" src="includes/js/navbar.js"></script>
 		
 		<script type="text/javascript" src="http://use.typekit.com/ivw5chn.js"></script>

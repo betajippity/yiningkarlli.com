@@ -8,7 +8,7 @@ $(document).ready(function(){
 		if($(window).scrollTop()<=55){
 			$('.yiningkarlli').css("opacity",titleFade);
 			var titlebarShrink = 110-$window.scrollTop();
-			titlebarShrink = Math.max(titlebarShrink,100);
+			titlebarShrink = Math.max(titlebarShrink,102);
 			$('.topmenubar').css("height",titlebarShrink+"px");
 		}else{
 			$('.topmenubar-hover').css("height","");
@@ -23,7 +23,7 @@ $(document).ready(function(){
 $(window).scroll(function(){
 	if($(window).scrollTop()>55){
 	    $('.topmenubar').attr("class", "topmenubar-hover");
-		$('body').css("margin-top","100px");
+		$('body').css("margin-top","102px");
 	}else{
 		$('.topmenubar-hover').attr("class", "topmenubar");
 		$('body').css("margin-top","0px");

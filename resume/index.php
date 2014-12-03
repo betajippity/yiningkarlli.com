@@ -188,9 +188,6 @@ held office hours, graded assignments, etc. | Supervisor: <a href="http://www.se
 					</div>
 				</div>
 			</div>-->
-			<?php
-				include '../includes/footer.php';
-			?>
 		</div>
 	</body>
 </html>

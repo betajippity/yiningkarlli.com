@@ -146,14 +146,15 @@ held office hours, graded assignments, etc. | Supervisor: <a href="http://www.se
 					<div class="resumeheader">PUBLICATIONS</div>
 				</div>
 				<div class="resumerightbar">
-					<div class="subtitle">A Framework for the Experimental Comparison of Solar and Skydome Illumination | SIGGRAPH Asia 2014 | Dec 2014 </div>
+					<div class="subtitle"><a href="http://www.graphics.cornell.edu/resources/clearsky/">A Framework for the Experimental Comparison of Solar and Skydome Illumination</a> | SIGGRAPH Asia 2014 | Nov/Dec 2014 </div>
+					<p>ACM Transactions on Graphics Volume 33 Issue 6, November 2014. Article No. 180. DOI: <a href="http://dx.doi.org/10.1145/2661229.2661259">10.1145/2661229.2661259</a>
 					<p>Authors: <a href="http://www.graphics.cornell.edu/~kiderj/">Joseph T. Kider</a>, <a href="http://www.danknowlton.com">Daniel T. Knowlton</a>, <a href="http://www.jeremynewlin.info/">Jeremy Newlin</a>, <a href="http://www.yiningkarlli.com/">Yining Karl Li</a>, <a href="http://www.graphics.cornell.edu/people/director.html">Donald P. Greenberg</a>
 		
 				</div>
 			</div>
 
 			<!-- SKILLS SECTION -->
-			
+			<!-- 
 			<div class = "resumerow">
 				<div class="resumeleftbar">
 					<div class="resumeheader">RELEVANT SKILLS</div>
@@ -186,15 +187,10 @@ held office hours, graded assignments, etc. | Supervisor: <a href="http://www.se
 						Nuke <p>
 					</div>
 				</div>
-			</div>
+			</div>-->
 			<?php
 				include '../includes/footer.php';
 			?>
 		</div>
 	</body>
 </html>
-
-
-
-
-

@@ -89,13 +89,13 @@
 			
 			<div class="projecttextrow">
 				<div class="subtitle">Project Blog Posts</div>
-				<p>Progress updates for this project were posted to my development blog, <a href="http://yiningkarlli.blogspot.com">Code & Visuals</a>. The following posts detail the development of this project. Posts are listed starting with the most recent:
+				<p>Progress updates for this project were posted to my development blog, <a href="http://blog.yiningkarlli.com">Code & Visuals</a>. The following posts detail the development of this project. Posts are listed starting with the most recent:
 				<div class="projecttextleftbar">
-					<p>5. <a href="http://yiningkarlli.blogspot.com/2012/09/volumetric-renderer-revisited.html">Volumetric Renderer Revisited</a>	
-					<p>4. <a href="http://yiningkarlli.blogspot.com/2012/05/smoke-sim-volumetric-renderer.html">Smoke Sim + Volumetric Renderer</a>	
-					<p>3. <a href="http://yiningkarlli.blogspot.com/2012/03/smoke-sim-preconditioning-and-huge.html">Smoke Sim: Preconditioning and Huge Grids</a>	
-					<p>2. <a href="http://yiningkarlli.blogspot.com/2012/03/smoke-simulation-basics.html">Smoke Simulation Basics</a>
-					<p>1. <a href="http://yiningkarlli.blogspot.com/2011/10/volumetric-renderer-for-rendering.html">A Volumetric Renderer for Rendering Volumes</a>
+					<p>5. <a href="http://blog.yiningkarlli.com/2012/09/volumetric-renderer-revisited.html">Volumetric Renderer Revisited</a>	
+					<p>4. <a href="http://blog.yiningkarlli.com/2012/05/smoke-sim-volumetric-renderer.html">Smoke Sim + Volumetric Renderer</a>	
+					<p>3. <a href="http://blog.yiningkarlli.com/2012/03/smoke-sim-preconditioning-and-huge.html">Smoke Sim: Preconditioning and Huge Grids</a>	
+					<p>2. <a href="http://blog.yiningkarlli.com/2012/03/smoke-simulation-basics.html">Smoke Simulation Basics</a>
+					<p>1. <a href="http://blog.yiningkarlli.com/2011/10/a-volumetric-renderer-for-rendering-volumes.html">A Volumetric Renderer for Rendering Volumes</a>
 				</div>
 				<div class="projecttextrightbar">
 		

@@ -122,6 +122,15 @@ div.caption {
 	background-position: 0 0;
 }
 
+#ariel {
+	background: url('../includes/buttons/ariel.png') bottom;
+}
+
+#ariel:hover{
+	background-position: 0 0;
+}
+
+
 #kitchen {
 	background: url('../includes/buttons/kitchen.png') bottom;
 }

@@ -23,7 +23,7 @@
 	<body>
 		<div class="content">
 			<div class="title">Resume</div>
-			<div class="subtitle">(PDF Version Available <a href="http://www.yiningkarlli.com/resume/karlFall2014Resume.pdf">Here</a>)</div>
+			<div class="subtitle">(PDF Version Available <a href="http://www.yiningkarlli.com/resume/karlSpring2015Resume.pdf">Here</a>)</div>
 			<br><br>
 			
 			<!-- EDUCATION SECTION -->
@@ -146,10 +146,12 @@ held office hours, graded assignments, etc. | Supervisor: <a href="http://www.se
 					<div class="resumeheader">PUBLICATIONS</div>
 				</div>
 				<div class="resumerightbar">
+					<div class="subtitle"><a>Accelerating Animated Vertex Connection and Merging through Temporally Coherent Path Reuse</a> | Cornell University MSc. Thesis | Expected May 2015 </div>
+					<p>Tentative Committee: <a href="http://www.graphics.cornell.edu/people/director.html">Donald P. Greenberg</a>, <a href="http://www.cs.cornell.edu/~kb/">Kavita Bala</a>, <a href="http://www.graphics.cornell.edu/~kiderj/">Joseph T. Kider</a>
+		
 					<div class="subtitle"><a href="http://www.graphics.cornell.edu/resources/clearsky/">A Framework for the Experimental Comparison of Solar and Skydome Illumination</a> | SIGGRAPH Asia 2014 | Nov/Dec 2014 </div>
 					<p>ACM Transactions on Graphics Volume 33 Issue 6, November 2014. Article No. 180. DOI: <a href="http://dx.doi.org/10.1145/2661229.2661259">10.1145/2661229.2661259</a>
 					<p>Authors: <a href="http://www.graphics.cornell.edu/~kiderj/">Joseph T. Kider</a>, <a href="http://www.danknowlton.com">Daniel T. Knowlton</a>, <a href="http://www.jeremynewlin.info/">Jeremy Newlin</a>, <a href="http://www.yiningkarlli.com/">Yining Karl Li</a>, <a href="http://www.graphics.cornell.edu/people/director.html">Donald P. Greenberg</a>
-		
 				</div>
 			</div>
 

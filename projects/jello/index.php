@@ -19,7 +19,7 @@
 			<div align="center" class="projectimagerow">
 				<div style="width:900px">
 				<a href="http://www.yiningkarlli.com/projects/jello/images/jello_03.png"><img src="http://www.yiningkarlli.com/projects/jello/images/jello_03.png" width="900" height="506" ></a>
-				<div class="caption">A frame from from a simulation of four jello cubes interacting with each other and a glass pitcher. All simulation work was done entirely with my simulator, rendering was done with Vray.</div>
+				<div class="caption">A frame from a simulation of four jello cubes interacting with each other and a glass pitcher. All simulation work was done entirely with my simulator, rendering was done with Vray.</div>
 				</div>
 			</div>			
 			
@@ -79,11 +79,11 @@
 			
 			<div class="projecttextrow">
 				<div class="subtitle">Project Blog Posts</div>
-				<p>Progress updates for this project were posted to my development blog, <a href="http://yiningkarlli.blogspot.com">Code & Visuals</a>. The following posts detail the development of this project. Posts are listed starting with the most recent:
+				<p>Progress updates for this project were posted to my development blog, <a href="http://blog.yiningkarlli.com">Code & Visuals</a>. The following posts detail the development of this project. Posts are listed starting with the most recent:
 				<div class="projecttextleftbar">
-					<p>3. <a href="http://yiningkarlli.blogspot.com/2012/05/more-fun-with-jello.html">More Fun With Jello</a>	
-					<p>2. <a href="http://yiningkarlli.blogspot.com/2012/02/jello-sim-maya-integration.html">Jello Sim Maya Integration</a>	
-					<p>1. <a href="http://yiningkarlli.blogspot.com/2012/02/multijello-simulation.html">Multijello Simulation</a>	
+					<p>3. <a href="http://blog.yiningkarlli.com/2012/05/more-fun-with-jello.html">More Fun With Jello</a>	
+					<p>2. <a href="http://blog.yiningkarlli.com/2012/02/jello-sim-maya-integration.html">Jello Sim Maya Integration</a>	
+					<p>1. <a href="http://blog.yiningkarlli.com/2012/02/multijello-simulation.html">Multijello Simulation</a>	
 				</div>
 				<div class="projecttextrightbar">
 		

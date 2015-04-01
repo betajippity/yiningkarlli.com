@@ -11,9 +11,23 @@
 		include 'includes/navigation.php';
 	?>
 	<body>
+		<style>
+			div.caption {
+				padding-left:9px;
+				padding-right:9px;
+				color:white;
+				background-color:#888888;
+				text-align: center ;
+				font-size:14px;
+			}
+		</style>
+		
 		<div class="content">
-				<p><iframe src="http://player.vimeo.com/video/50127144?color=ffffff" width="900" height="508" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-				<br><br>
+				<div align="center"
+					<p><img src="includes/banner.jpg" width="900" height="506" ><div class="caption">Rendered entirely with my own renderer, Takua Render. More information is available on my project pages and blog.</div>
+				</div>
+				
+				<br>
 				Born in Hannover, Germany and raised in Philadelphia, Pennsylvania, Yining Karl Li is a computer graphics researcher and student. Currently, Karl is a Master of Science in Computer Graphics candidate at Cornell University's <a href="http://www.graphics.cornell.edu/">Program of Computer Graphics</a>.<p>
 				
 				Previously, Karl did his undergraduate studies at the <a href="http://www.upenn.edu/">University of Pennsylvania</a>.<p>

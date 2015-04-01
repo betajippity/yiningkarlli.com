@@ -20,15 +20,15 @@
 						<a class="projectbutton" id="takua" href="takuarender"><span class="projecttitle">Takua Render</span></a>
 					</div>
 					<div class="projectrightbar">
-						<a class="projectbutton" id="multifluids" href="multifluid"><span class="projecttitle">Multiple Interacting Fluids</span></a>
+						<a class="projectbutton" id="ariel" href="arielflip"><span class="projecttitle">Ariel PIC/FLIP Fluids</span></a>
 					</div>
 				</div>
-				<div class = "projectrow">
+				<div>
 					<div class="projectleftbar">
 						<a class="projectbutton" id="gpupathtracer" href="gpupathtracer"><span class="projecttitle">GPU Pathtracer</span></a>
 					</div>
 					<div class="projectrightbar">
-						<a class="projectbutton" id="jello" href="jello"><span class="projecttitle">Multiple Interacting Jellos</span></a>
+						<a class="projectbutton" id="multifluids" href="multifluid"><span class="projecttitle">Multiple Interacting Fluids</span></a>
 					</div>
 				</div>
 				<div class = "projectrow">
@@ -36,10 +36,9 @@
 						<a class="projectbutton" id="smoke" href="smoke"><span class="projecttitle">Smoke Simulator/Volumetric Renderer</span></a>
 					</div>
 					<div class="projectrightbar">
-						<a class="projectbutton" id="kitchen" href="kitchen"><span class="projecttitle">Kitchen</span></a>
+						<a class="projectbutton" id="jello" href="jello"><span class="projecttitle">Multiple Interacting Jellos</span></a>
 					</div>
 				</div>
-				
 			</div>
 		</div>
 	</body>

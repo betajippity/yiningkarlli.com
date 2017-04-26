@@ -3,14 +3,34 @@
 	<head>
 		<meta http-equiv='Content-Type' content='application/xhtml+xml; charset=utf-8' />
 		<title>YINING KARL LI | Takua Render</title>	
-		<?php
-			include '../../includes/header.php';
-		?>
-		<link rel='stylesheet' href='../projects.css' type='text/css' media='screen' />
+		<LINK REL="SHORTCUT ICON" HREF="../includes/favicon.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../includes/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../includes/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../includes/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="../includes/apple-touch-icon-57-precomposed.png">
+		<link rel='stylesheet' href="../includes/css/style.css" type='text/css' media='screen' />
+		
+		<script type="text/javascript" src="../includes/js/jquery.js"></script>
+		<script type="text/javascript" src="../includes/js/navbar.js"></script>
+		
+		<script type="text/javascript" src="http://use.typekit.com/ivw5chn.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		<script type="text/javascript" src="../includes/js/analytics.js"></script>		<link rel='stylesheet' href='projects.css' type='text/css' media='screen' />
 	</head>
-	<?php
-		include '../../includes/navigation.php';
-	?>
+	<div class="topmenubar">
+	<div class="toptext">
+		<div class="yiningkarlli">
+			<a href="../index.html" class="nav">YINING KARL LI</a>
+		</div>
+		<div class="codeandvisuals">
+			<a href="http://blog.yiningkarlli.com" class="nav">CODE & VISUALS</a>
+		</div>
+		<div class="topmenu">
+			<a href="http://blog.yiningkarlli.com" class="nav">Blog</a> | <a href="../projects.html" class="nav">Projects</a> | <a href="../demoreel.html" class="nav">Reel</a> | <a href="../resume.html" class="nav">Resume</a> | <a href="../about.html" class="nav">About</a>
+		</div>
+	</div>
+</div>
+
 	<body>
 		<div class="content">						
 			<div class="title">Takua Render</div>			
@@ -18,8 +38,8 @@
 			
 			<div align="center" class="projectimagerow">
 				<div style="width:900px">
-				<a href="http://www.yiningkarlli.com/projects/takuarender/images/room.png"><img src="images/room.jpg" width="900" height="506" ></a>
-				<div class="caption">A complex scene rendered using Takua Render's Vertex Connection and Merging implementation. The poster on the back wall is by <a href="http://alice-yang.tumblr.com/">Alice Yang</a>, the two main furniture pieces are by <a href="http://odesd2.com.ua/ru">ODESD2</a>, the flowers are a heavily modified version of a model by <a href="https://www.behance.net/andi_mix">Andrei Mikhalenko</a>, and the Braun SK4 record player model is by <a href="bertrand-benoit.com">Bertrand Benoit</a>. All textures, shading, and other models are my own.</div>
+				<a href="takuarender/images/room.png"><img src="takuarender/images/room.jpg" width="900" height="506" ></a>
+				<div class="caption">A complex scene rendered using Takua Render's Vertex Connection and Merging implementation. The poster on the back wall is by <a href="http://alice-yang.tumblr.com/">Alice Yang</a>, the two main furniture pieces are by <a href="http://odesd2.com.ua/ru">ODESD2</a>, the flowers are a heavily modified version of a model by <a href="https://www.behance.net/andi_mix">Andrei Mikhalenko</a>, and the Braun SK4 record player model is by <a href="http://bertrand-benoit.com/">Bertrand Benoit</a>. All textures, shading, and other models are my own.</div>
 				</div>
 			</div>
 						
@@ -29,21 +49,21 @@
 				<p>There have been 5 major versions of Takua Render so far, with each version representing a significant refactoring/rewrite and exploration of a new architecture. The current version of Takua Render is Revision 5, or Takua a0.5. Past versions are:
 				<p><b>Takua a0.5: </b>Brand new massively concurrent CPU renderer with a highly modular, plugin based architecture and multiple advanced light transport algorithms. Can also optionally make use of CUDA in certain plugin types. The design of Takua a0.5's core is considered stable and is not expected to be completely refactored again soon.
 				<p><b>Takua a0.4: </b>Experimental CUDA/CPU hybrid unidirectional pathtracer with significant shared code paths between the CUDA and CPU rendering cores. Essentially a merger of Takua a0.3 and Takua a0.2.
-				<p><b>Takua a0.3: </b>Experimental CUDA unidirectional pathtracer built from scratch after gaining knowledge from building a previous <a href="http://www.yiningkarlli.com/projects/gpupathtracer/">GPU Pathtracer with Peter Kutz</a>.
+				<p><b>Takua a0.3: </b>Experimental CUDA unidirectional pathtracer built from scratch after gaining knowledge from building a previous <a href="gpupathtracer.html">GPU Pathtracer with Peter Kutz</a>.
 				<p><b>Takua a0.2: </b>Experimental CPU unidirectional pathtracer built from scratch after gaining knowledge from building Takua a0.1.
 				<p><b>Takua a0.1: </b>My first CPU pathtracer.</div>
 				<p>This project has been under active development since 2012 and is currently my primary focus. Takua Render is also currently used at Cornell University's Program of Computer Graphics as a research renderer.
 					
 			<div align="center" class="projectimagerow">
 				<div style="width:900px">
-				<a href="http://www.yiningkarlli.com/projects/takuarender/images/flowers.cam2.png"><img src="images/flowers.cam2.png" width="900" height="506" ></a>
+				<a href="takuarender/images/flowers.cam2.png"><img src="takuarender/images/flowers.cam2.png" width="900" height="506" ></a>
 				<div class="caption">Nearly a quarter of a billion triangles. Rendered using bidirectional pathtracing with multiple importance sampling. See <a href="http://blog.yiningkarlli.com/2015/02/flower-vase-render.html">this blog post</a> for more details.</div>
 				</div>
 			</div>
 
 			<div align="center" class="projectimagerow">
 				<div style="width:900px">
-				<a href="http://www.yiningkarlli.com/projects/takuarender/images/venus.png"><img src="images/venus.png" width="900" height="900" ></a>
+				<a href="takuarender/images/venus.png"><img src="takuarender/images/venus.png" width="900" height="900" ></a>
 				<div class="caption">A render of a 2 million triangle Venus sculpt by <a href="http://vimeo.com/zxyzhu">Zia Zhu</a>. Rendered using unidirectional pathtracing with direct light sampling. See <a href="http://blog.yiningkarlli.com/2013/04/giant-mesh-test.html">this blog post</a> for more details.</div>
 				</div>
 			</div>
@@ -81,56 +101,56 @@
 
 			<div align="center" class="projectimagerow">
 				<div style="width:900px">
-				<a href="http://www.yiningkarlli.com/projects/takuarender/images/still_life.png"><img src="images/still_life.png" width="900" height="506" ></a>
+				<a href="takuarender/images/still_life.png"><img src="takuarender/images/still_life.png" width="900" height="506" ></a>
 				<div class="caption">Still life scene with various complex materials. Rendered using Vertex Connection and Merging.</div>
 				</div>
 			</div>
 
 			<div align="center" class="projectimagerow">
 				<div style="width:900px">
-				<a href="http://www.yiningkarlli.com/projects/takuarender/images/flowers.cam0.png"><img src="images/flowers.cam0.png" width="900" height="506" ></a>
+				<a href="takuarender/images/flowers.cam0.png"><img src="takuarender/images/flowers.cam0.png" width="900" height="506" ></a>
 				<div class="caption">Rendered using bidirectional pathtracing with multiple importance sampling.</div>
 				</div>
 			</div>
 			
 			<div align="center" class="projectimagerow">
 				<div style="width:900px">
-				<a href="http://www.yiningkarlli.com/projects/takuarender/images/flowers.cam1.png"><img src="images/flowers.cam1.png" width="900" height="506" ></a>
+				<a href="takuarender/images/flowers.cam1.png"><img src="takuarender/images/flowers.cam1.png" width="900" height="506" ></a>
 				<div class="caption">Rendered using bidirectional pathtracing with multiple importance sampling.</div>
 				</div>
 			</div>
 			
 			<div align="center" class="projectimagerow">
 				<div style="width:900px">
-				<a href="http://www.yiningkarlli.com/projects/takuarender/images/veach.bdpt.png"><img src="images/veach.bdpt.png" width="900" height="506" ></a>
+				<a href="takuarender/images/veach.bdpt.png"><img src="takuarender/images/veach.bdpt.png" width="900" height="506" ></a>
 				<div class="caption">Recreation of the Veach thesis multiple importance sampling test scene. Rendered using bidirectional pathtracing with multiple importance sampling. See <a href="http://blog.yiningkarlli.com/2015/02/multiple-importance-sampling.html">this post</a> for more details.</div>
 				</div>
 			</div>
 			
 			<div align="center" class="projectimagerow">
 				<div style="width:900px">
-				<a href="http://www.yiningkarlli.com/projects/takuarender/images/cornellbox.png"><img src="images/cornellbox.png" width="900" height="900" ></a>
+				<a href="takuarender/images/cornellbox.png"><img src="takuarender/images/cornellbox.png" width="900" height="900" ></a>
 				<div class="caption">Recreation of the famous Cornell Box. This scene was constructed from the original measured data for the original box. Rendered using Vertex Connection and Merging.</div>
 				</div>
 			</div>
 			
 			<div align="center" class="projectimagerow">
 				<div style="width:900px">
-				<a href="http://www.yiningkarlli.com/projects/takuarender/images/globe.png"><img src="images/globe.png" width="900" height="506" ></a>
+				<a href="takuarender/images/globe.png"><img src="takuarender/images/globe.png" width="900" height="506" ></a>
 				<div class="caption">Globe rendered using hierarchical adaptive sampling and Vertex Connection and Merging. See <a href="http://blog.yiningkarlli.com/2015/03/adaptive-sampling.html">this post</a> for more details.</div>
 				</div>
 			</div>
 			
 			<div align="center" class="projectimagerow">
 				<div style="width:900px">
-				<a href="http://www.yiningkarlli.com/projects/takuarender/images/pbrt.png"><img src="images/pbrt.png" width="900" height="506" ></a>
+				<a href="takuarender/images/pbrt.png"><img src="takuarender/images/pbrt.png" width="900" height="506" ></a>
 				<div class="caption">A render of the book upon which this project draws a lot of resources from. Rendered with bidirectional pathtracing and multiple importance sampling.</div>
 				</div>
 			</div>
 
 			<div align="center" class="projectimagerow">
 				<div style="width:900px">
-				<a href="http://www.yiningkarlli.com/projects/takuarender/images/chessboard_1.png"><img src="images/chessboard_1.png" width="900" height="506" ></a>
+				<a href="takuarender/images/chessboard_1.png"><img src="takuarender/images/chessboard_1.png" width="900" height="506" ></a>
 				<div class="caption">A ground glass chessboard. Rendered with bidirectional pathtracing and multiple importance sampling.</div>
 				</div>
 			</div>
@@ -155,55 +175,55 @@
 			</div>
 			<div align="center" class="projectimagerow">
 				<div style="width:800px">
-				<a href="http://www.yiningkarlli.com/projects/takuarender/images/dragonsss_bright.png"><img src="images/dragonsss_bright.png" width="800" height="800" ></a>
+				<a href="takuarender/images/dragonsss_bright.png"><img src="takuarender/images/dragonsss_bright.png" width="800" height="800" ></a>
 				<div class="caption">A render of the Stanford Dragon exhibiting subsurface scatter through brute force Monte-Carlo scattering. Lighting was calculated all indirectly through unidirectional pathtracing. No modifications have been made to this image outside of the renderer.</div>
 				</div>
 			</div>
 			<div align="center" class="projectimagerow">
 				<div style="width:800px">
-				<a href="http://www.yiningkarlli.com/projects/takuarender/images/glassdragon_dof.png"><img src="images/glassdragon_dof.png" width="800" height="800"></a>
+				<a href="takuarender/images/glassdragon_dof.png"><img src="takuarender/images/glassdragon_dof.png" width="800" height="800"></a>
 				<div class="caption">A render of the Stanford Dragon with a glass material inside a Cornell-Box type environment, with an extremely shallow depth of field.</div>
 				</div>
 			</div>
 			<div align="center" class="projectimagerow">
 				<div style="width:800px">
-				<a href="http://www.yiningkarlli.com/projects/takuarender/images/stripes.png"><img src="images/stripes.png" width="800" height="800"></a>
+				<a href="takuarender/images/stripes.png"><img src="takuarender/images/stripes.png" width="800" height="800"></a>
 				<div class="caption">A render of a test scene demonstrating texture-driven color, glossiness, reflectance, and index of refraction.</div>
 				</div>
 			</div>
 			<div align="center" class="projectimagerow">
 				<div style="width:800px">
-				<a href="http://www.yiningkarlli.com/projects/takuarender/images/uvtest.png"><img src="images/uvtest.png" width="800" height="800"></a>
+				<a href="takuarender/images/uvtest.png"><img src="takuarender/images/uvtest.png" width="800" height="800"></a>
 				<div class="caption">A render from Takua Render demonstrating a number of textures with various UV transforms applied. Note the lack of aliasing and moire-patterns in textured surfaces.</div>
 				</div>
 			</div>
 			<div align="center" class="projectimagerow">
 				<div style="width:900px">
-				<a href="http://www.yiningkarlli.com/projects/takuarender/images/eames_aluminum.png"><img src="images/eames_aluminum.png" width="900" height="508" ></a>
+				<a href="takuarender/images/eames_aluminum.png"><img src="takuarender/images/eames_aluminum.png" width="900" height="508" ></a>
 				<div class="caption">Eames Lounge Chair Wood lit with a single large area light (off camera) and glossy wood and rough aluminum materials. Approximately 2 minutes rendering time using CUDA mode.</div>
 				</div>
 			</div>
 			<div align="center" class="projectimagerow">
 				<div style="width:900px">
-				<a href="http://www.yiningkarlli.com/projects/takuarender/images/dragon_kd.png"><img src="images/dragon_kd.png" width="900" height="506"></a>
+				<a href="takuarender/images/dragon_kd.png"><img src="takuarender/images/dragon_kd.png" width="900" height="506"></a>
 				<div class="caption">A heatmap showing the cost of traversing through a KD-Tree build for the Stanford Dragon. Areas with brighter red indicate more expensive ray-intersection tests, whereas darker areas are cheaper to test.</div>
 				</div>
 			</div>
 			<div align="center" class="projectimagerow">
 				<div style="width:900px">
-				<a href="http://www.yiningkarlli.com/projects/takuarender/images/dragon_white.png"><img src="images/dragon_white.png" width="900" height="506"></a>
+				<a href="takuarender/images/dragon_white.png"><img src="takuarender/images/dragon_white.png" width="900" height="506"></a>
 				<div class="caption">A test render of the Stanford Dragon on a white backdrop with a standard studio style lighting setup.</div>
 				</div>
 			</div>
 			<div align="center" class="projectimagerow">
 				<div style="width:900px">
-				<a href="http://www.yiningkarlli.com/projects/takuarender/images/deloreon.png"><img src="images/deloreon.png" width="900" height="506"></a>
+				<a href="takuarender/images/deloreon.png"><img src="takuarender/images/deloreon.png" width="900" height="506"></a>
 				<div class="caption">A test render of a approximately 100000 poly Deloreon model on a white backdrop with a standard studio style lighting setup.</div>
 				</div>
 			</div>
 			<div align="center" class="projectimagerow">
 				<div style="width:900px">
-				<a href="http://www.yiningkarlli.com/projects/takuarender/images/lambo_back.png"><img src="images/lambo_back.png" width="900" height="506" ></a>
+				<a href="takuarender/images/lambo_back.png"><img src="takuarender/images/lambo_back.png" width="900" height="506" ></a>
 				<div class="caption">A render of a 200000 polygon Lamborghini Aventador model. Lighting was calculated all indirectly through unidirectional pathtracing, entirely on the GPU through CUDA. The render took about 1.5 hours to generate approximately 25000 samples per pixel. No modifications have been made to this image outside of the renderer.</div>
 				</div>
 			</div>
@@ -223,6 +243,7 @@
 			<div class="subtitle">Project Blog Posts</div>
 					<p>I am posting progress updates for Takua Render to my development blog, <a href="http://blog.yiningkarlli.com">Code & Visuals</a>. The following posts detail the ongoing development of this project. Posts are listed starting with the most recent:
 				<div class="projecttextleftbar">
+					<p>29. <a href="http://blog.yiningkarlli.com/2015/05/complex-room-renders.html">Complex Room Renders</a>
 					<p>28. <a href="http://blog.yiningkarlli.com/2015/03/bsdf-system.html">BSDF System</a>
 					<p>27. <a href="http://blog.yiningkarlli.com/2015/03/adaptive-sampling.html">Adaptive Sampling</a>
 					<p>26. <a href="http://blog.yiningkarlli.com/2015/02/flower-vase-render.html">Flower Vase Renders</a>
@@ -236,9 +257,9 @@
 					<p>18. <a href="http://blog.yiningkarlli.com/2013/04/working-towards-importance-sampled.html">Working Towards Importance Sampled Direct Lighting</a>
 					<p>17. <a href="http://blog.yiningkarlli.com/2013/03/stratified-versus-uniform-sampling.html">Stratified versus Uniform Sampling</a>
 					<p>16. <a href="http://blog.yiningkarlli.com/2013/03/first-progress-on-new-pathtracing-core.html">First Progress on New Pathtracing Core</a>
-					<p>15. <a href="http://blog.yiningkarlli.com/2013/03/short-stack-kd-tree-traversal.html">Short-stack KD-Tree Traversal</a>
 				</div>
 				<div class="projecttextrightbar">
+					<p>15. <a href="http://blog.yiningkarlli.com/2013/03/short-stack-kd-tree-traversal.html">Short-stack KD-Tree Traversal</a>
 					<p>14. <a href="http://blog.yiningkarlli.com/2013/02/stackless-kd-tree-traversal.html">Stackless KD-Tree Traversal</a>
 					<p>13. <a href="http://blog.yiningkarlli.com/2013/02/revision-3-kd-treeobjcore.html">Revision 3 KD-Tree/ObjCore</a>
 					<p>12. <a href="http://blog.yiningkarlli.com/2013/02/bounding-boxes-for-ellipsoids.html">Bounding Boxes for Ellipsoids</a>

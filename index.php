@@ -28,7 +28,7 @@
 				</div>
 				
 				<br>
-				Born in Hannover, Germany and raised in Philadelphia, Pennsylvania, Yining Karl Li is a computer graphics researcher and student. Currently, Karl is a Master of Science in Computer Graphics candidate at Cornell University's <a href="http://www.graphics.cornell.edu/">Program of Computer Graphics</a>.<p>
+				Born in Hannover, Germany and raised in Philadelphia, Pennsylvania, Yining Karl Li is a computer graphics researcher and student. Currently, Karl is a Master of Science in Computer Graphics candidate at Cornell University's <a href="http://www.graphics.cornell.edu/">Program of Computer Graphics</a>. Starting in mid-2015, Karl will be joining Walt Disney Animation Studios as an engineer on the Hyperion Renderer team.<p>
 				
 				Previously, Karl did his undergraduate studies at the <a href="http://www.upenn.edu/">University of Pennsylvania</a>.<p>
 				During the summer of 2013, Karl interned at <a href="http://www.pixar.com/">Pixar Animation Studios</a> as part of the <a href="http://graphics.pixar.com/research/">Pixar Research Group</a>.<p>

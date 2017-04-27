@@ -154,3 +154,32 @@ div.caption {
 #pups2011:hover{
 	background-position: 0 0;
 }
+
+div.newprojectheader{
+    color: #4b4b4b;
+    font: 24px "futura-pt"; 
+}
+
+div.newprojectleftbar {
+    float:left;
+    text-align: center ;
+    width:400px;
+}
+
+div.newprojectrightbar {
+    float:right;
+    width:450px;
+    margin-left: 50px;
+    text-align: left ;
+}
+
+div.newprojectrow {
+    float:left;
+    margin-bottom: 50px;
+}
+
+.downloads p{
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+}

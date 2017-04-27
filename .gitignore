@@ -1,8 +1,7 @@
 error_log
 cgi-bin/
-*.pdf
 files/
-images/
+/images/
 test/
 dev/
 google*html

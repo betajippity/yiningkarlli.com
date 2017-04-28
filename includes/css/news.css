@@ -1,0 +1,32 @@
+div.newsheader{
+    color: #4b4b4b;
+    font: 24px "futura-pt"; 
+}
+
+div.newsleftbar {
+    float:left;
+    text-align: left ;
+    width:500px;
+}
+
+div.newsrightbar {
+    float:right;
+    width:350px;
+    margin-left: 50px;
+}
+
+div.newsrightbarsplitright {
+    float:right;
+    width:275px;
+}
+
+div.newsrightbarsplitleft {
+    float:left;
+    width:300px;
+    text-align: left ; 
+}
+
+div.newsrow {
+    float:left;
+    margin-bottom: 50px;
+}

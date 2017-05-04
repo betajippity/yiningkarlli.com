@@ -1,3 +1,36 @@
+div.frontpageheader{
+    color: #4b4b4b;
+    font: 24px "futura-pt"; 
+}
+
+div.frontpageleftbar {
+    float:left;
+    text-align: left ;
+    width:500px;
+}
+
+div.frontpagerightbar {
+    float:right;
+    width:375px;
+    margin-left: 25px;
+}
+
+div.frontpagerightbarsplitright {
+    float:right;
+    width:275px;
+}
+
+div.frontpagerightbarsplitleft {
+    float:left;
+    width:300px;
+    text-align: left ; 
+}
+
+div.frontpagerow {
+    float:left;
+    margin-bottom: 50px;
+}
+
 div.newsheader{
     color: #4b4b4b;
     font: 24px "futura-pt"; 
@@ -6,13 +39,13 @@ div.newsheader{
 div.newsleftbar {
     float:left;
     text-align: left ;
-    width:500px;
+    width:100px;
 }
 
 div.newsrightbar {
     float:right;
-    width:375px;
-    margin-left: 25px;
+    width:775px;
+    margin-left: 0px;
 }
 
 div.newsrightbarsplitright {
@@ -28,5 +61,5 @@ div.newsrightbarsplitleft {
 
 div.newsrow {
     float:left;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }

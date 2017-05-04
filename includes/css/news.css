@@ -39,13 +39,16 @@ div.newsheader{
 div.newsleftbar {
     float:left;
     text-align: left ;
-    width:100px;
+    width:110px;
+    font: 17px "futura-pt"; 
+    font-weight: 500;
 }
 
 div.newsrightbar {
     float:right;
-    width:775px;
+    width:755px;
     margin-left: 0px;
+    font: 17px "proxima-nova";
 }
 
 div.newsrightbarsplitright {

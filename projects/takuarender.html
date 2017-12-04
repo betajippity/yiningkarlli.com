@@ -46,7 +46,7 @@
 			<div class="projecttextrow">
 				<div class="subtitle">Overview</div>
 				<p>Takua Render is a physically-based photorealistic 3D renderer I am writing from scratch in C++. Takua is built from the ground up as a global illumination renderer supporting global illumination through several different light transport algorithms, including unidirectional pathtracing with direct light sampling, Veach-style bidirectional pathtracing with multiple importance sampling, progressive photon mapping, and vertex connection and merging. The renderer is still a work in progress, but already supports a number of features, listed below. The ultimate objective of this project is to learn about building an advanced production-ready renderer.
-				<p>There have been 7 major versions of Takua Render so far, with each version representing a significant refactoring/rewrite and exploration of a new architecture. The current version of Takua Render is Revision 7, or Takua a0.7. Past versions are:
+				<p>There have been 7 major versions of Takua Render so far, with each version representing either a significant refactoring/rewrite and exploration of a new architecture, or a major evolution of the previous version. The current version of Takua Render is Revision 7, or Takua a0.7. Past versions are:
                 <p><b>Takua a0.7: </b>An evolution of Takua a0.6 with significant architectural improvements; redesigned integrator system to a brand new path-space formulation light transport library; completely new advanced shading system.
                 <p><b>Takua a0.6: </b>An evolution of Takua a0.5 with significant improvements to overall speed, sampling strategies, light subsystem, and a rebuilt, much more efficient integrator system.
 				<p><b>Takua a0.5: </b>Brand new massively concurrent CPU renderer with a highly modular, plugin based architecture and multiple advanced light transport algorithms. Can also optionally make use of CUDA in certain plugin types. The design of Takua a0.5's core is considered stable and is not expected to be completely refactored again soon.
@@ -244,6 +244,7 @@
 			<div class="subtitle">Project Blog Posts</div>
 					<p>I am posting progress updates for Takua Render to my development blog, <a href="http://blog.yiningkarlli.com">Code & Visuals</a>. The following posts detail the ongoing development of this project. Posts are listed starting with the most recent:
 				<div class="projecttextleftbar">
+                    <p>32. <a href="http://blog.yiningkarlli.com/2017/12/lambo-renders-revisited.html">Aventador Renders Revisited</a>
                     <p>31. <a href="http://blog.yiningkarlli.com/2017/05/subdivision-and-displacement.html">Subdivision Surfaces and Displacement Mapping</a>
                     <p>30. <a href="http://blog.yiningkarlli.com/2015/06/attenuated-transmission.html">Attenuated Transmission</a>
 					<p>29. <a href="http://blog.yiningkarlli.com/2015/05/complex-room-renders.html">Complex Room Renders</a>
@@ -259,9 +260,9 @@
 					<p>19. <a href="http://blog.yiningkarlli.com/2013/04/importance-sampled-direct-lighting.html">Importance Sampled Direct Lighting</a>
 					<p>18. <a href="http://blog.yiningkarlli.com/2013/04/working-towards-importance-sampled.html">Working Towards Importance Sampled Direct Lighting</a>
 					<p>17. <a href="http://blog.yiningkarlli.com/2013/03/stratified-versus-uniform-sampling.html">Stratified versus Uniform Sampling</a>
-					<p>16. <a href="http://blog.yiningkarlli.com/2013/03/first-progress-on-new-pathtracing-core.html">First Progress on New Pathtracing Core</a>
 				</div>
 				<div class="projecttextrightbar">
+					<p>16. <a href="http://blog.yiningkarlli.com/2013/03/first-progress-on-new-pathtracing-core.html">First Progress on New Pathtracing Core</a>
 					<p>15. <a href="http://blog.yiningkarlli.com/2013/03/short-stack-kd-tree-traversal.html">Short-stack KD-Tree Traversal</a>
 					<p>14. <a href="http://blog.yiningkarlli.com/2013/02/stackless-kd-tree-traversal.html">Stackless KD-Tree Traversal</a>
 					<p>13. <a href="http://blog.yiningkarlli.com/2013/02/revision-3-kd-treeobjcore.html">Revision 3 KD-Tree/ObjCore</a>

@@ -1,4 +1,4 @@
 <?php
-header("Location: http://www.yiningkarlli.com/resume.html", true, 301);
+header("Location: https://www.yiningkarlli.com/resume.html", true, 301);
 exit();
 ?>

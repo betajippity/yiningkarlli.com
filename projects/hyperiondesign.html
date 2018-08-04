@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv='Content-Type' content='application/xhtml+xml; charset=utf-8' />
+        <title>The Design and Evolution of Disney's Hyperion Renderer</title>
+        <LINK REL="SHORTCUT ICON" HREF="../includes/favicon.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../includes/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../includes/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../includes/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="../includes/apple-touch-icon-57-precomposed.png">
+        <link rel='stylesheet' href="../includes/css/style.css" type='text/css' media='screen' />
+
+        <script type="text/javascript" src="../includes/js/jquery.js"></script>
+        <script type="text/javascript" src="../includes/js/navbar.js"></script>
+
+        <script type="text/javascript" src="https://use.typekit.com/ivw5chn.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        <script type="text/javascript" src="../includes/js/analytics.js"></script>      <link rel='stylesheet' href='projects.css' type='text/css' media='screen' />
+    </head>
+    <div class="topmenubar">
+    <div class="toptext">
+        <div class="yiningkarlli">
+            <a href="../index.html" class="nav">YINING KARL LI</a>
+        </div>
+        <div class="codeandvisuals">
+            <a href="http://blog.yiningkarlli.com" class="nav">CODE & VISUALS</a>
+        </div>
+        <div class="topmenu">
+            <a href="http://blog.yiningkarlli.com" class="nav">Blog</a> | <a href="../projects.html" class="nav">Projects</a> | <a href="../demoreel.html" class="nav">Reel</a> | <a href="../resume.html" class="nav">Resume</a> | <a href="../about.html" class="nav">About</a>
+        </div>
+    </div>
+</div>
+
+    <body>
+        <div class="content">
+            <div class="title">The Design and Evolution of Disney's Hyperion Renderer</div>
+            <div class="subtitle">
+                <a href="https://www.linkedin.com/in/brent-burley-56972557/">Brent Burley</a>, <a href="https://www.linkedin.com/in/david-adler-5ab7b21/s">David Adler</a>, <a href="http://dl.acm.org/author_page.cfm?id=99658729701&coll=DL&dl=ACM&trk=0">Matt Jen-Yuan Chiang</a>, <a href="">Hank Driskill</a>, <a href="https://www.linkedin.com/in/ralf-habel-6a74bb2">Ralf Habel</a>, <a href="https://www.linkedin.com/in/patrick-kelly-1424b86/">Patrick Kelly</a>, <a href="http://peterkutz.com/">Peter Kutz</a>, <a href="https://www.yiningkarlli.com">Yining Karl Li</a>, and <a href="https://www.linkedin.com/in/daniel-teece-2650358/">Daniel Teece</a>
+                <p>ACM Transactions on Graphics<br> Volume 37 Issue 3, Jul 2018. Article No. 33</p>
+            </div>
+
+            <div align="center" class="projectimagerow">
+                <div style="width:900px">
+                    <a href="hyperiondesign/images/teaser.png"><img src="hyperiondesign/images/teaser.png" width="900" height="379" ></a>
+                    <div class="caption">Production frames from Big Hero 6 (upper left), Zootopia (upper right), Moana (bottom left), and Olaf’s Frozen Adventure (bottom right), all rendered using Disney’s Hyperion Renderer.</div>
+                </div>
+            </div>
+
+            <div class="projecttextrow">
+                <div class="subtitle">Abstract</div>
+                <p>Walt Disney Animation Studios has transitioned to path-traced global illumination as part of a progression of brute-force physically based rendering in the name of artist efficiency. To achieve this without compromising our geometric or shading complexity, we built our Hyperion renderer based on a novel architecture that extracts traversal and shading coherence from large, sorted ray batches. In this article, we describe our architecture and discuss our design decisions. We also explain how we are able to provide artistic control in a physically based renderer, and we demonstrate through case studies how we have benefited from having a proprietary renderer that can evolve with production needs.
+            </div>
+
+            <div class="projecttextrow">
+                <div class="subtitle">Downloads</div><p>
+                <div class="downloads">
+                    Publication:
+                    <p><a href="hyperiondesign/hyperiondesign.pdf">Paper (Author's Version), PDF (21.4 MB)</a></p>
+                    <p><a href="https://doi.org/10.1145/3182159">Official Publisher's Version (External Link)</a></p>
+                    <p><a href="https://www.disneyanimation.com/technology/publications/">Official Walt Disney Animation Studios Page (External Link, Coming Soon)</a></p>
+                </div>
+            </div>
+
+            <div class="projecttextrow">
+                <div class="subtitle">Errata</div>
+                <p>In section 5.16, where the paper reads "We prevent cache points from coupling correlated noise into both buffers by generating independent cache points for each buffer", the sentence should read "photons", not "cache points".
+            </div>
+
+            <div class="projecttextrow">
+                <div class="subtitle">Text Reference</div>
+                    <p><a href="https://www.linkedin.com/in/brent-burley-56972557/">Brent Burley</a>, <a href="https://www.linkedin.com/in/david-adler-5ab7b21/s">David Adler</a>, <a href="http://dl.acm.org/author_page.cfm?id=99658729701&coll=DL&dl=ACM&trk=0">Matt Jen-Yuan Chiang</a>, <a href="">Hank Driskill</a>, <a href="https://www.linkedin.com/in/ralf-habel-6a74bb2">Ralf Habel</a>, <a href="https://www.linkedin.com/in/patrick-kelly-1424b86/">Patrick Kelly</a>, <a href="http://peterkutz.com/">Peter Kutz</a>, <a href="https://www.yiningkarlli.com">Yining Karl Li</a>, and <a href="https://www.linkedin.com/in/daniel-teece-2650358/">Daniel Teece</a>. The Design and Evolution of Disney's Hyperion Renderer. <i>ACM Transactions on Graphics</i>. 37(3), Article 33, July 2018.</p>
+            </div>
+
+            <div class="projecttextrow">
+                <div class="subtitle">Bibtex Reference</div>
+                    <p><pre><span class="inner-pre" style="font-size: 12px">@article{Burley2018HYP,
+    author = {Burley, Brent and Adler, David and Chiang, Matt Jen-Yuan and Driskill, Hank and
+    	      Habel, Ralf and Kelly, Patrick and Kutz, Peter and Li, Yining Karl and Teece, Daniel},
+    title = {The Design and Evolution of Disney's Hyperion Renderer},
+    journal = {ACM Transactions on Graphics},
+    volume = {37},
+    number = {3},
+    month = jul,
+    year = {2018},
+    articleno = {33},
+    doi = {10.1145/3182159},
+    keywords = {production rendering, path tracing, physically based rendering},
+}</span></pre></p>
+            </div>
+
+            <div class="projecttextrow">
+                <div class="subtitle">Acknowledgements</div>
+                <p>Many people besides the authors of this paper contributed to the development of Disney's Hyperion Renderer. The original architecture for Hyperion was proposed by Brent Burley, and developed by Christian Eisenacher, Gregory Nichols, and Andrew Selle. Significant Hyperion development was also performed by Benedikt Bitterli, Simon Kallweit, Gabor Liktor, Ulrich Muller, Jan Novák, Ben Spencer, and Serge Sretschinsky.</p>
+				<p>We are grateful for the many in-depth discussions with Disney Research, Pixar Research, and the RenderMan development team which influenced the development of Hyperion, especially Per Christensen, Julian Fong, Christophe Hery, Wojciech Jarosz, Marios Papas, Thomas Müller, Fabrice Rouselle, Rasmus Tamstorf, Ryusuke Villemin, and Magnus Wrenninge.</p>
+				<p>We are thankful for leadership and management support from Sean Jenkins, Darren Robinson, Rajesh Sharma, and Chuck Tappan; project management from Andrew Fisher and Tami Valdes; and quality engineering from Doug Lesan and Lisa Young.</p>
+				<p>More than anything, we would like to thank the many artists, technical directors, and production supervisors who motivated Hyperion, participated in its development, and contributed to its success, especially Big Hero Six leadership for taking a leap of faith. We would also like to thank the pipeline software development team, technology department, and studio leadership for supporting our efforts.</p>
+            </div>
+
+             <div class="projecttextrow">
+                <div class="subtitle">Copyright Disclaimer</div>
+                <p>© The Author(s) / ACM. This is the author's version of the work. It is posted here for your personal use. Not for redistribution. The Definitive Version of Record is available at <a href="http://doi.acm.org">doi.acm.org</a>.</p>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+

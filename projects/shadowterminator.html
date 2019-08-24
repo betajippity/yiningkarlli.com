@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv='Content-Type' content='application/xhtml+xml; charset=utf-8' />
+        <title>Taming the Shadow Terminator</title>
+        <LINK REL="SHORTCUT ICON" HREF="../includes/favicon.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../includes/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../includes/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../includes/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="../includes/apple-touch-icon-57-precomposed.png">
+        <link rel='stylesheet' href="../includes/css/style.css" type='text/css' media='screen' />
+
+        <script type="text/javascript" src="../includes/js/jquery.js"></script>
+        <script type="text/javascript" src="../includes/js/navbar.js"></script>
+
+        <script type="text/javascript" src="https://use.typekit.com/ivw5chn.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+        <script type="text/javascript" src="../includes/js/analytics.js"></script>      <link rel='stylesheet' href='projects.css' type='text/css' media='screen' />
+    </head>
+    <div class="topmenubar">
+    <div class="toptext">
+        <div class="yiningkarlli">
+            <a href="../index.html" class="nav">YINING KARL LI</a>
+        </div>
+        <div class="codeandvisuals">
+            <a href="http://blog.yiningkarlli.com" class="nav">CODE & VISUALS</a>
+        </div>
+        <div class="topmenu">
+            <a href="http://blog.yiningkarlli.com" class="nav">Blog</a> | <a href="../projects.html" class="nav">Projects</a> | <a href="../demoreel.html" class="nav">Reel</a> | <a href="../resume.html" class="nav">Resume</a> | <a href="../about.html" class="nav">About</a>
+        </div>
+    </div>
+</div>
+
+    <body>
+        <div class="content">
+            <div class="title">Taming the Shadow Terminator</div>
+            <div class="subtitle">
+                <a href="http://dl.acm.org/author_page.cfm?id=99658729701&coll=DL&dl=ACM&trk=0">Matt Jen-Yuan Chiang</a>, <a href="https://www.yiningkarlli.com">Yining Karl Li</a>, and <a href="https://www.linkedin.com/in/brent-burley-56972557/">Brent Burley</a>
+                <br>ACM SIGGRAPH 2019 Talks. Article No. 71</p>
+            </div>
+
+            <div align="center" class="projectimagerow">
+                <div style="width:900px">
+                    <a href="shadowterminator/images/teaser.png"><img src="shadowterminator/images/teaser.png" width="900" height="256" ></a>
+                    <div class="caption">The shadow terminator (a) appears harsh when using shading normals. Estevez et al. [2019] (b) softens the terminator but still appears somewhat harsh. Our modified shadowing function (c) fully softens the terminator without otherwise compromising the look.</div>
+                </div>
+            </div>
+
+            <div class="projecttextrow">
+                <div class="subtitle">Abstract</div>
+                <p>A longstanding problem with the use of shading normals is the discontinuity introduced into the cosine falloff where part of the hemisphere around the shading normal falls below the geometric surface. Our solution is to add a geometrically derived shadowing function that adds minimal additional shadowing while falling smoothly to zero at the terminator. Our shadowing function is simple, robust, efficient and production proven.</p>
+            </div>
+
+            <div class="projecttextrow">
+                <div class="subtitle">Downloads</div><p>
+                <div class="downloads">
+                    Publication:
+                    <p><a href="shadowterminator/shadow_terminator_v1_1.pdf">Paper (Author's Version, includes fixes not in official version), PDF (4 MB)</a></p>
+                    <p><a href="https://dl.acm.org/citation.cfm?doid=3306307.3328172">Official Publisher's Version (External Link)</a></p>
+                </div>
+            </div>
+
+            <div class="projecttextrow">
+                <div class="subtitle">Text Reference</div>
+                    <p> <a href="http://dl.acm.org/author_page.cfm?id=99658729701&coll=DL&dl=ACM&trk=0">Matt Jen-Yuan Chiang</a>, <a href="https://www.yiningkarlli.com">Yining Karl Li</a>, and <a href="https://www.linkedin.com/in/brent-burley-56972557/">Brent Burley</a>. Taming the Shadow Terminator. <i><b>ACM SIGGRAPH 2019</b> Talks</i>. Article 71, Jul 2019.</p>
+            </div>
+
+            <div class="projecttextrow">
+                <div class="subtitle">Bibtex Reference</div>
+                    <p><pre><span class="inner-pre" style="font-size: 12px">@article{Chiang2019ShadowTerminator,
+    author = {Chiang, Matt Jen-Yuan and Li, Yining Karl and Burley, Brent},
+    title = {Taming the Shadow Terminator},
+    journal = {ACM SIGGRAPH 2019 Talks},
+    month = jul,
+    year = {2019},
+    articleno = {71},
+    doi = {10.1145/3306307.3328172},
+}</span></pre></p>
+            </div>
+
+            <div class="projecttextrow">
+                <div class="subtitle">Errata</div>
+                <p>In the official publisher's version, the caption for Figure 5 reads "The horizontal axis is the light angle as measured from the shading normal". The caption should read "The horizontal axis is the light angle as measured from the geometric normal". This typo is fixed in the author's version above.</p>
+            </div>
+
+            <div class="projecttextrow">
+                <div class="subtitle">Acknowledgements</div>
+                <p>We thank Peter Kutz for initial exploration into Schüssler et al. [2017], which helped motivate this project. We thank the Hyperion development team for supporting this project, the many artists at Walt Disney Animation Studios who tested this technique, the leadership of Frozen 2 for adopting this technique in production, and finally our paper reviewers for providing invaluable comments and suggestions.</p>
+            </div>
+
+             <div class="projecttextrow">
+                <div class="subtitle">Copyright Disclaimer</div>
+                <p>© The Author(s) / ACM. This is the author's version of the work. It is posted here for your personal use. Not for redistribution. The Definitive Version of Record is available at <a href="http://doi.acm.org">doi.acm.org</a>.</p>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+

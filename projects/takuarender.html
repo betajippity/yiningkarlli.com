@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<meta http-equiv='Content-Type' content='application/xhtml+xml; charset=utf-8' />
-		<title>YINING KARL LI | Takua Render</title>
+		<title>YINING KARL LI | Takua Renderer</title>
 		<LINK REL="SHORTCUT ICON" HREF="../includes/favicon.png" />
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../includes/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../includes/apple-touch-icon-114-precomposed.png">
@@ -33,20 +33,20 @@
 
 	<body>
 		<div class="content">
-			<div class="title">Takua Render</div>
+			<div class="title">Takua Renderer</div>
 			<div class="subtitle">A physically-based photorealistic global illumination renderer</div>
 
 			<div align="center" class="projectimagerow">
 				<div style="width:900px">
 				<a href="takuarender/images/room.cam0.0.png"><img src="takuarender/images/room.cam0.0.jpg" width="900" height="506" ></a>
-				<div class="caption">A modified Evermotion scene, rendered entirely with Takua Render. See this <a href="https://blog.yiningkarlli.com/2018/02/scandinavian-room-scene.html">blog post</a> for more details.</div>
+				<div class="caption">A modified Evermotion scene, rendered entirely with Takua Renderer. See this <a href="https://blog.yiningkarlli.com/2018/02/scandinavian-room-scene.html">blog post</a> for more details.</div>
 				</div>
 			</div>
 
 			<div class="projecttextrow">
 				<div class="subtitle">Overview</div>
-				<p>Takua Render is a physically-based photorealistic 3D renderer I am writing from scratch in C++. Takua is built from the ground up as a global illumination renderer supporting global illumination through several different light transport algorithms, including unidirectional pathtracing with direct light sampling, Veach-style bidirectional pathtracing with multiple importance sampling, progressive photon mapping, and vertex connection and merging. The renderer is still a work in progress, but already supports a number of features, listed below. The ultimate objective of this project is to learn about building an advanced production-ready renderer.
-				<p>There have been 8 major versions of Takua Render so far, with each version representing either a significant refactoring/rewrite and exploration of a new architecture, or a major evolution of the previous version. The current version of Takua Render is Revision 9, or Takua a0.9. Past versions are:
+				<p>Takua Renderer is a physically-based photorealistic 3D renderer I am writing from scratch in C++. Takua is built from the ground up as a global illumination renderer supporting global illumination through several different light transport algorithms, including unidirectional pathtracing with direct light sampling, Veach-style bidirectional pathtracing with multiple importance sampling, progressive photon mapping, and vertex connection and merging. The renderer is still a work in progress, but already supports a number of features, listed below. The ultimate objective of this project is to learn about building an advanced production-ready renderer.
+				<p>There have been 8 major versions of Takua Renderer so far, with each version representing either a significant refactoring/rewrite and exploration of a new architecture, or a major evolution of the previous version. The current version of Takua Renderer is Revision 9, or Takua a0.9. Past versions are:
                 <p><b>Takua a0.9: </b>An evolution of Takua a0.8 with significant advances in production-grade features, including an expanded shading node library, support for tiled, mipmapped out-of-core texture caching, various shading improvements, light visibility controls, new light types, traversal speed improvements, additional subdivision modes, and more.
                 <p><b>Takua a0.8: </b>An evolution of Takua a0.7 with significant shading system improvements (including a general-purpose uber-Bsdf and a layering system), support for subdivision surfaces and displacement mapping, instancing improvements, large ray traversal speed improvements, light sampling improvements, and a checkpointing system for suspending/resuming renders.
                 <p><b>Takua a0.7: </b>An evolution of Takua a0.6 with significant architectural improvements; redesigned integrator system to a brand new path-space formulation light transport library; completely new advanced shading system.
@@ -56,7 +56,7 @@
 				<p><b>Takua a0.3: </b>Experimental CUDA unidirectional pathtracer built from scratch after gaining knowledge from building a previous <a href="gpupathtracer.html">GPU Pathtracer with Peter Kutz</a>.
 				<p><b>Takua a0.2: </b>Experimental CPU unidirectional pathtracer built from scratch after gaining knowledge from building Takua a0.1.
 				<p><b>Takua a0.1: </b>My first CPU pathtracer.</div>
-				<p>This project has been under active development since 2012 and is my personal project outside of work. Takua Render is also currently used at Cornell University's Program of Computer Graphics as a research renderer.
+				<p>This project has been under active development since 2012 and is my personal project outside of work. Takua Renderer is also currently used at Cornell University's Program of Computer Graphics as a research renderer.
 
 			<div align="center" class="projectimagerow">
 				<div style="width:900px">
@@ -130,7 +130,7 @@
 			<div align="center" class="projectimagerow">
 				<div style="width:900px">
 				<a href="takuarender/images/room.png"><img src="takuarender/images/room.jpg" width="900" height="506" ></a>
-				<div class="caption">A complex scene rendered using Takua Render's Vertex Connection and Merging implementation. The poster on the back wall is by <a href="http://alice-yang.tumblr.com/">Alice Yang</a>, the two main furniture pieces are by <a href="http://odesd2.com.ua/ru">ODESD2</a>, the flowers are a heavily modified version of a model by <a href="https://www.behance.net/andi_mix">Andrei Mikhalenko</a>, and the Braun SK4 record player model is by <a href="http://bertrand-benoit.com/">Bertrand Benoit</a>. All textures, shading, and other models are my own.</div>
+				<div class="caption">A complex scene rendered using Takua Renderer's Vertex Connection and Merging implementation. The poster on the back wall is by <a href="http://alice-yang.tumblr.com/">Alice Yang</a>, the two main furniture pieces are by <a href="http://odesd2.com.ua/ru">ODESD2</a>, the flowers are a heavily modified version of a model by <a href="https://www.behance.net/andi_mix">Andrei Mikhalenko</a>, and the Braun SK4 record player model is by <a href="http://bertrand-benoit.com/">Bertrand Benoit</a>. All textures, shading, and other models are my own.</div>
 				</div>
 			</div>
 				
@@ -241,7 +241,7 @@
 			<div align="center" class="projectimagerow">
 				<div style="width:800px">
 				<a href="takuarender/images/uvtest.png"><img src="takuarender/images/uvtest.png" width="800" height="800"></a>
-				<div class="caption">A render from Takua Render demonstrating a number of textures with various UV transforms applied. Note the lack of aliasing and moire-patterns in textured surfaces.</div>
+				<div class="caption">A render from Takua Renderer demonstrating a number of textures with various UV transforms applied. Note the lack of aliasing and moire-patterns in textured surfaces.</div>
 				</div>
 			</div>
 			<div align="center" class="projectimagerow">
@@ -288,7 +288,7 @@
 
 			<div class="projecttextrow">
 			<div class="subtitle">Project Blog Posts</div>
-					<p>I am posting progress updates for Takua Render to my development blog, <a href="http://blog.yiningkarlli.com">Code & Visuals</a>. The following posts detail the ongoing development of this project. Posts are listed starting with the most recent:
+					<p>I am posting progress updates for Takua Renderer to my development blog, <a href="http://blog.yiningkarlli.com">Code & Visuals</a>. The following posts detail the ongoing development of this project. Posts are listed starting with the most recent:
 				<div class="projecttextleftbar">
                     <p>35. <a href="https://blog.yiningkarlli.com/2020/02/shadow-terminator-in-takua.html">Shadow Terminator in Takua</a>
                     <p>35. <a href="https://blog.yiningkarlli.com/2019/05/nested-dielectrics.html">Nested Dielectrics</a>
@@ -304,7 +304,7 @@
 					<p>25. <a href="http://blog.yiningkarlli.com/2015/02/multiple-importance-sampling.html">Multiple Importance Sampling</a>
 					<p>24. <a href="http://blog.yiningkarlli.com/2015/02/bidirectional-pathtracing-integrator.html">Bidirectional Pathtracing Integrator</a>
 					<p>23. <a href="http://blog.yiningkarlli.com/2015/01/consistent-normal-interpolation.html">Consistent Normal Interpolation</a>
-					<p>22. <a href="http://blog.yiningkarlli.com/2014/12/takua-revision-5.html">Takua Render Revision 5</a>
+					<p>22. <a href="http://blog.yiningkarlli.com/2014/12/takua-revision-5.html">Takua Renderer Revision 5</a>
 					<p>21. <a href="http://blog.yiningkarlli.com/2013/12/takua-chair-renders.html">Takua Chair Renders</a>
 					<p>20. <a href="http://blog.yiningkarlli.com/2013/04/giant-mesh-test.html">Giant Mesh Test</a>
 					<p>19. <a href="http://blog.yiningkarlli.com/2013/04/importance-sampled-direct-lighting.html">Importance Sampled Direct Lighting</a>
@@ -333,7 +333,7 @@
 
 			<div class="projecttextrow">
 				<div class="subtitle">Resources</div>
-				<p>In the process of building Takua Render, I have drawn upon the following papers, books, and articles. They are listed in no particular order. This list, of course, is nowhere near complete; many more resources are cited on my blog in various posts.
+				<p>In the process of building Takua Renderer, I have drawn upon the following papers, books, and articles. They are listed in no particular order. This list, of course, is nowhere near complete; many more resources are cited on my blog in various posts.
 				<p><a href="http://www.pbrt.org/">Physically Based Rendering</a>: The go-to reference book for rendering, by Matt Phar and Greg Humphreys.
 				<p><a href="https://graphics.cg.uni-saarland.de/2012/vertex-connection-and-merging/">Light Transport Simulation with Vertex Connection and Merging</a>: Georgiev et al.'s 2012 paper introducing the VCM algorithm.
 				<p><a href="https://graphics.cg.uni-saarland.de/2012/implementing-vertex-connection-and-merging/">Implementing Vertex Connection and Merging</a>: Iliyan Georgiev's technical report describing implementation details for VCM.

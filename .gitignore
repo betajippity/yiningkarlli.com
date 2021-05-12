@@ -6,3 +6,4 @@ test/
 dev/
 google*html
 resume/old/
+*DS_Store

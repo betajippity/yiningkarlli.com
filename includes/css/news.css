@@ -6,13 +6,13 @@ div.frontpageheader{
 div.frontpageleftbar {
     float:left;
     text-align: left ;
-    width:500px;
+    width:55%;
 }
 
 div.frontpagerightbar {
     float:right;
-    width:375px;
-    margin-left: 25px;
+    width:42%;
+    margin-left: 3%;
 }
 
 div.frontpagerightbarsplitright {
@@ -39,14 +39,14 @@ div.newsheader{
 div.newsleftbar {
     float:left;
     text-align: left ;
-    width:110px;
+    width: 13%;
     font: 17px "futura-pt"; 
     font-weight: 500;
 }
 
 div.newsrightbar {
     float:right;
-    width:755px;
+    width: 87%;
     margin-left: 0px;
     font: 17px "proxima-nova";
 }
@@ -65,4 +65,47 @@ div.newsrightbarsplitleft {
 div.newsrow {
     float:left;
     margin-bottom: 5px;
+    width:100%;
+}
+
+@media only screen and (max-width: 600px) {
+
+div.frontpageleftbar {
+    float:left;
+    text-align: left ;
+    width:100%;
+}
+
+div.frontpagerightbar {
+    float:left;
+    width:100%;
+    text-align: left ;
+    margin-left: 0%;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+
+div.newsleftbar {
+    float:left;
+    text-align: left ;
+    width: 100%;
+    font: 17px "futura-pt"; 
+    font-weight: 500;
+}
+
+div.newsrightbar {
+    float:right;
+    width: 100%;
+    text-align: left ;
+    margin-left: 0px;
+    font: 17px "proxima-nova";
+}
+
+div.newsrow {
+    float:left;
+    margin-bottom: 15px;
+    width:100%;
+}
+
 }

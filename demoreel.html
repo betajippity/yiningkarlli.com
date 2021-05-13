@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<meta http-equiv='Content-Type' content='application/xhtml+xml; charset=utf-8' />
+        <meta name="viewport" content="width=device-width">
 		<title>YINING KARL LI | Spring 2015 Demoreel</title>
 		<LINK REL="SHORTCUT ICON" HREF="includes/favicon.png" />
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="includes/apple-touch-icon-144-precomposed.png">
@@ -10,33 +11,46 @@
         <link rel="apple-touch-icon-precomposed" href="includes/apple-touch-icon-57-precomposed.png">
 		<link rel='stylesheet' href="includes/css/style.css" type='text/css' media='screen' />
 		
-		<script type="text/javascript" src="includes/js/jquery.js"></script>
-		<script type="text/javascript" src="includes/js/navbar.js"></script>
+		<!-- <script type="text/javascript" src="includes/js/jquery.js"></script> -->
+		<!-- <script type="text/javascript" src="includes/js/navbar.js"></script> -->
 		
 		<link rel="stylesheet" href="https://use.typekit.net/yap3ink.css">
 		
-		<script type="text/javascript" src="includes/js/analytics.js"></script>	</head>
-	<div class="topmenubar">
-	<div class="toptext">
-		<div class="yiningkarlli">
-			<a href="index.html" class="nav">YINING KARL LI</a>
-		</div>
-		<div class="codeandvisuals">
-			<a href="http://blog.yiningkarlli.com" class="nav">CODE & VISUALS</a>
-		</div>
-		<div class="topmenu">
-			<a href="http://blog.yiningkarlli.com" class="nav">Blog</a> | <a href="projects.html" class="nav">Projects</a> | <a href="demoreel.html" class="nav">Reel</a> | <a href="resume.html" class="nav">Resume</a> | <a href="about.html" class="nav">About</a>
-		</div>
-	</div>
-</div>
+		<script type="text/javascript" src="includes/js/analytics.js"></script>
+    </head>
+
+    <header id="site-head">
+        <div class="vertical">
+            <div id="topmenubar">
+                <div class="topmenubar-toptext">
+                    <div class="topmenubar-inner">
+                        <div class="yiningkarlli">
+                            <a href="index.html" class="nav">YINING KARL LI</a>
+                        </div>
+                        <div class="codeandvisuals">
+                            <a href="http://blog.yiningkarlli.com" class="nav">CODE & VISUALS</a>
+                        </div>
+                        <div class="topmenu">
+                            <a href="http://blog.yiningkarlli.com" class="nav">Blog</a> | <a href="projects.html"
+                                class="nav">Projects</a> | <a href="about.html" class="nav">About</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
 	<body>
 		<div class="content">			
-			<div class="title">Spring 2015 Demoreel</div>	
-			<p><iframe src="https://player.vimeo.com/video/123704915?color=ffffff" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+            <div class="title"><a href="about.html">About</a> | <a href="resume.html">Resume</a> | Reel</div>
+			<p>
+            <div class="embed-container">
+                <iframe src="https://player.vimeo.com/video/123704915?color=ffffff"
+                    frameborder="0"></iframe>
+            </div>
 			<br><br>
 			
-			<div class="title">Breakdown</div>	
+			<div class="title">Spring 2015 Demoreel Breakdown</div><br>
 			<div class="subtitle"><b>1. Takua Renderer</b>: A physically-based photorealistic global illumination renderer. 2012-2015.</div>
 			<p>Takua Renderer is a physically-based photorealistic 3D renderer I am writing from scratch in C++. Takua is built from the ground up as a global illumination renderer supporting global illumination through several different light transport algorithms, including unidirectional pathtracing with direct light sampling, Veach-style bidirectional pathtracing with multiple importance sampling, progressive photon mapping, and vertex connection and merging. The renderer is still a work in progress, but already supports a large number of features, which are fully listed <a href="projects/takuarender.html">here</a>. The ultimate objective of this project is to learn about building an advanced production-ready renderer.
 			<p>Takua Renderer has a highly modular, extensible architecture supporting plugins for many renderer subsystems. The architecture of the renderer achieves highly efficient parallelism through task-based concurrency and <a href="https://www.threadingbuildingblocks.org/">Threaded Building Blocks</a>. Much of this model is inspired by concepts from <a href="https://vimeo.com/49718712">Rob Pike and the GoLang team</a>, and by Eisenacher et al.'s <a href="https://disney-animation.s3.amazonaws.com/uploads/production/publication_asset/70/asset/Sorted_Deferred_Shading_For_Production_Path_Tracing.pdf">Sorted Deferred Shading for Production Path Tracing</a> paper. Integrators are written to be re-entrant and broken up into numerous smaller tasks, which are mapped onto the TBB task graph. Partial CUDA acceleration is supported through select plugins.

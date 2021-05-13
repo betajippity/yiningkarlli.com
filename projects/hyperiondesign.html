@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <meta http-equiv='Content-Type' content='application/xhtml+xml; charset=utf-8' />
+        <meta name="viewport" content="width=device-width">
         <title>The Design and Evolution of Disney's Hyperion Renderer</title>
         <LINK REL="SHORTCUT ICON" HREF="../includes/favicon.png" />
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../includes/apple-touch-icon-144-precomposed.png">
@@ -10,26 +11,34 @@
         <link rel="apple-touch-icon-precomposed" href="../includes/apple-touch-icon-57-precomposed.png">
         <link rel='stylesheet' href="../includes/css/style.css" type='text/css' media='screen' />
 
-        <script type="text/javascript" src="../includes/js/jquery.js"></script>
-        <script type="text/javascript" src="../includes/js/navbar.js"></script>
+        <!-- <script type="text/javascript" src="../includes/js/jquery.js"></script>
+        <script type="text/javascript" src="../includes/js/navbar.js"></script> -->
 
         <link rel="stylesheet" href="https://use.typekit.net/yap3ink.css">
         
-        <script type="text/javascript" src="../includes/js/analytics.js"></script>      <link rel='stylesheet' href='projects.css' type='text/css' media='screen' />
+        <script type="text/javascript" src="../includes/js/analytics.js"></script>      
+        <link rel='stylesheet' href='projects.css' type='text/css' media='screen' />
     </head>
-    <div class="topmenubar">
-    <div class="toptext">
-        <div class="yiningkarlli">
-            <a href="../index.html" class="nav">YINING KARL LI</a>
+    <header id="site-head">
+        <div class="vertical">
+            <div id="topmenubar">
+                <div class="topmenubar-toptext">
+                    <div class="topmenubar-inner">
+                        <div class="yiningkarlli">
+                            <a href="../index.html" class="nav">YINING KARL LI</a>
+                        </div>
+                        <div class="codeandvisuals">
+                            <a href="http://blog.yiningkarlli.com" class="nav">CODE & VISUALS</a>
+                        </div>
+                        <div class="topmenu">
+                            <a href="http://blog.yiningkarlli.com" class="nav">Blog</a> | <a href="../projects.html"
+                                class="nav">Projects</a> | <a href="../about.html" class="nav">About</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="codeandvisuals">
-            <a href="http://blog.yiningkarlli.com" class="nav">CODE & VISUALS</a>
-        </div>
-        <div class="topmenu">
-            <a href="http://blog.yiningkarlli.com" class="nav">Blog</a> | <a href="../projects.html" class="nav">Projects</a> | <a href="../demoreel.html" class="nav">Reel</a> | <a href="../resume.html" class="nav">Resume</a> | <a href="../about.html" class="nav">About</a>
-        </div>
-    </div>
-</div>
+    </header>
 
     <body>
         <div class="content">
@@ -40,8 +49,8 @@
             </div>
 
             <div align="center" class="projectimagerow">
-                <div style="width:900px">
-                    <a href="hyperiondesign/images/teaser.png"><img src="hyperiondesign/images/teaser.png" width="900" height="379" ></a>
+                <div>
+                    <a href="hyperiondesign/images/teaser.png"><img src="hyperiondesign/images/teaser.png"></a>
                     <div class="caption">Production frames from Big Hero 6 (upper left), Zootopia (upper right), Moana (bottom left), and Olaf’s Frozen Adventure (bottom right), all rendered using Disney’s Hyperion Renderer.</div>
                 </div>
             </div>
@@ -58,7 +67,7 @@
                     <p><a href="hyperiondesign/hyperiondesign.pdf">Paper (Author's Version), PDF (21.4 MB)</a></p>
                     <p><a href="https://doi.org/10.1145/3182159">Official Publisher's Version (External Link)</a></p>
                     <p><a href="https://www.disneyanimation.com/technology/publications/">Official Walt Disney Animation Studios Page (External Link, Coming Soon)</a></p>
-                </div>
+                </div><br>
             </div>
 
             <div class="projecttextrow">

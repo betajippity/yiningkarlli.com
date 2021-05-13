@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <meta http-equiv='Content-Type' content='application/xhtml+xml; charset=utf-8' />
+        <meta name="viewport" content="width=device-width">
         <title>Spectral and Decomposition Tracking for Rendering Heterogeneous Volumes</title>
         <LINK REL="SHORTCUT ICON" HREF="../includes/favicon.png" />
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../includes/apple-touch-icon-144-precomposed.png">
@@ -10,38 +11,46 @@
         <link rel="apple-touch-icon-precomposed" href="../includes/apple-touch-icon-57-precomposed.png">
         <link rel='stylesheet' href="../includes/css/style.css" type='text/css' media='screen' />
 
-        <script type="text/javascript" src="../includes/js/jquery.js"></script>
-        <script type="text/javascript" src="../includes/js/navbar.js"></script>
+        <!-- <script type="text/javascript" src="../includes/js/jquery.js"></script>
+        <script type="text/javascript" src="../includes/js/navbar.js"></script> -->
 
         <link rel="stylesheet" href="https://use.typekit.net/yap3ink.css">
         
-        <script type="text/javascript" src="../includes/js/analytics.js"></script>      <link rel='stylesheet' href='projects.css' type='text/css' media='screen' />
+        <script type="text/javascript" src="../includes/js/analytics.js"></script>      
+        <link rel='stylesheet' href='projects.css' type='text/css' media='screen' />
     </head>
-    <div class="topmenubar">
-    <div class="toptext">
-        <div class="yiningkarlli">
-            <a href="../index.html" class="nav">YINING KARL LI</a>
+    <header id="site-head">
+        <div class="vertical">
+            <div id="topmenubar">
+                <div class="topmenubar-toptext">
+                    <div class="topmenubar-inner">
+                        <div class="yiningkarlli">
+                            <a href="../index.html" class="nav">YINING KARL LI</a>
+                        </div>
+                        <div class="codeandvisuals">
+                            <a href="http://blog.yiningkarlli.com" class="nav">CODE & VISUALS</a>
+                        </div>
+                        <div class="topmenu">
+                            <a href="http://blog.yiningkarlli.com" class="nav">Blog</a> | <a href="../projects.html"
+                                class="nav">Projects</a> | <a href="../about.html" class="nav">About</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="codeandvisuals">
-            <a href="http://blog.yiningkarlli.com" class="nav">CODE & VISUALS</a>
-        </div>
-        <div class="topmenu">
-            <a href="http://blog.yiningkarlli.com" class="nav">Blog</a> | <a href="../projects.html" class="nav">Projects</a> | <a href="../demoreel.html" class="nav">Reel</a> | <a href="../resume.html" class="nav">Resume</a> | <a href="../about.html" class="nav">About</a>
-        </div>
-    </div>
-</div>
+    </header>
 
     <body>
         <div class="content">
             <div class="title">Spectral and Decomposition Tracking for Rendering Heterogeneous Volumes</div>
             <div class="subtitle">
-                <a href="http://peterkutz.com/">Peter Kutz</a>, <a href="https://www.linkedin.com/in/ralf-habel-6a74bb2">Ralf Habel</a>, <a href="https://www.yiningkarlli.com">Yining Karl Li</a>, and <a href="http://drz.disneyresearch.com/~jnovak/">Jan Novák</a>
+                <a href="http://peterkutz.com/">Peter Kutz</a>, <a href="https://www.linkedin.com/in/ralf-habel-6a74bb2">Ralf Habel</a>, <a href="https://www.yiningkarlli.com">Yining Karl Li</a>, and <a href="https://jannovak.info/index.html">Jan Novák</a>
                 <p>ACM Transactions on Graphics (Proceedings of ACM SIGGRAPH 2017)<br> Volume 36 Issue 4, Jul 2017. Article No. 111</p>
             </div>
 
             <div align="center" class="projectimagerow">
-                <div style="width:900px">
-                    <a href="specdecomptracking/images/teaser.png"><img src="specdecomptracking/images/teaser_small.png" width="900" height="272" ></a>
+                <div>
+                    <a href="specdecomptracking/images/teaser.png"><img src="specdecomptracking/images/teaser_small.png"></a>
                     <div class="caption">A cloudscape rendered with a combination of our spectral and decomposition tracking techniques, which gracefully handle chromatic media and reduce collision coefficient evaluations. The insets on the right were computed in equal time, with our method yielding 3.5× lower MSE than delta tracking.</div>
                 </div>
             </div>
@@ -58,7 +67,7 @@
                     <p><a href="specdecomptracking/SDTracking.pdf">Paper (Author's Version), PDF (16 MB)</a></p>
                     <p><a href="http://dx.doi.org/10.1145/3072959.3073665">Official Publisher's Version (External Link)</a></p>
                     <p><a href="https://www.disneyanimation.com/technology/publications/96">Official Walt Disney Animation Studios Page (External Link)</a></p>
-                    <p><a href="http://drz.disneyresearch.com/~jnovak/publications/SDTracking/index.html">Jan Novák's Project Page (External Link)</a></p>
+                    <p><a href="https://jannovak.info/publications/SDTracking/index.html">Jan Novák's Project Page (External Link)</a></p>
 
                     Supplements:
                     <p><a href="specdecomptracking/SDTracking_supplementary.pdf">Supplemental Document, PDF (11 MB)</a></p>
@@ -73,7 +82,7 @@
                     Video:
                     <p><a href="specdecomptracking/SDTracking_video.mp4">Decomposition Tracking Extinction Lookups, MP4 (4 MB)</a></p>
                     <p><a href="specdecomptracking/SDTracking_fastforward.mp4">SIGGRAPH Fast Foward Video, MP4 (27 MB)</a></p>
-                </div>
+                </div><br>
             </div>
 
             <div class="projecttextrow">

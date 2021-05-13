@@ -53,55 +53,80 @@ a.nav:active {
 
 .content {
 	color: #4b4b4b;
-	width: 900px;
-	position: absolute;
-	left: 50%;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-left: -460px;
-	margin-top: 20px;
-	padding-bottom: 20px;
+    position: relative;
+    width: 80%;
+    max-width: 900px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 40px;
 }
 
-.topmenubar {
-	color:white;
-	background-color: #3d3d3d ;
-	height: 110px ;
-	line-height: 50px ;
-	text-align: center ;
-	width: 100% ;
-	opacity: .9;
-	
+/* Keep large images within the bounds of the post-width */
+.content img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
-.topmenubar .toptext {
-	width: 900px ;
-	left: 50%;
-	margin-left: -450px;
-	margin-top: 5px;
-	position: absolute ;
-	text-align: left ;
+#site-head {
+    position: relative;
+    display: table;
+    width: 100%;
+    margin-bottom: 1.25rem;
+    z-index: 800 ;
 }
 
-.topmenubar .yiningkarlli {
+/* Centers vertically (IE8+) */
+.vertical {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.topmenubar-toptext {
+    margin-left: -4px;
+    color: white;
+    background-color: #3d3d3d ;
+    height: 110px ;
+    opacity: .9;
+}
+
+.topmenubar-inner {
+    position: relative;
+    width: 80%;
+    max-width: 900px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+.yiningkarlli {
 	font: 60px "futura-pt";
-	font-weight: 500;
-	margin-top: -5px;
+    position: absolute;
+    top: 1px;
+    font-size: 60px;
+    /* display: inline; */
+    font-weight: 500;
+    text-transform:uppercase;
+    z-index: 1100 ;
 }
 
-.topmenubar .codeandvisuals {
+.codeandvisuals {
 	font: 30px "futura-pt";
 	font-weight: 500;
 	margin-left: 80px;
-	margin-top: -18px;
+    position: absolute;
+    top: 60px;
+    /* display: inline; */
+    text-transform:uppercase;
+    z-index: 1100 ;
 }
 
-.topmenubar .topmenu {
+.topmenu {
 	font: 20px "futura-pt";
-	font-weight: 300;
-	text-align: right ;
-	margin-top: -29px;
-	z-index: 1000 ;
+    font-weight: 300;
+    text-align: right ;
+    right: 0px;
+    top:69px;
+    position: absolute;
 }
 
 .topmenubar-hover {
@@ -111,7 +136,6 @@ a.nav:active {
 	line-height: 50px ;
 	position: fixed ;
 	text-align: center ;
-	width: 100% ;
 	z-index: 1000 ;
 	opacity: .9;
 	margin-top: -102px;
@@ -123,7 +147,7 @@ a.nav:active {
 }
 
 .topmenubar-hover .toptext {
-	width: 900px ;
+    width: 80%;
 	left: 50%;
 	margin-left: -450px;
 	margin-top: 5px;
@@ -151,11 +175,140 @@ div.topbar-s {
 
 div.title{
 	color: #4b4b4b;
-	font: 32px "futura-pt";	
+	font: 28px "futura-pt";	
 }
 
 div.subtitle{
 	color: #4b4b4b;
-	font: 22px "futura-pt";	
+	font: 20px "futura-pt";	
 }
 
+.embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; overflow: hidden; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+.embed-container-square { 
+    position: relative; 
+    padding-bottom: 100%; 
+    height: 0; overflow: hidden; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+.embed-container-square iframe, .embed-container-square object, .embed-container-square embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+@media only screen and (max-width: 800px) {
+
+    .topmenubar-toptext {
+        height: 87px ;
+    }
+
+    .yiningkarlli {
+        top: 1px;
+        font-size: 50px;
+        display: inline;
+    }
+
+    .codeandvisuals {
+        font-size: 25px;
+        margin-left: 72px;
+        position: absolute;
+        top: 49px;
+    }
+
+    .topmenu {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: right ;
+        right: 0px;
+        top: 57px;
+    }
+
+    div.title{
+        font-size: 28px;
+    }
+
+    div.subtitle{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .topmenubar-toptext {
+        width: auto;
+        color: white;
+        background-color: #3d3d3d ;
+        height: 110px ;
+        opacity: .9;
+    }
+
+    .topmenubar-inner {
+        position: relative;
+        width: 50%;
+        max-width: 900px;
+        min-width: 300px;
+        margin: auto;
+        left: 1.1%;
+    }
+
+    .yiningkarlli {
+        margin: auto;
+        position: relative;
+        top: 0px;
+        font-size: 2.5em;
+        display: table;
+    }
+
+    .codeandvisuals {
+        margin: auto;
+        position: relative;
+        display: table;
+        font-size: 1.5em;
+        top: -12px;
+    }
+
+    .topmenu {
+        margin: auto;
+        position: relative;
+        font-size: 0.9em;
+        font-weight: 300;
+        text-align: center ;
+        display: table;
+        top: -9px;
+    }
+
+    div.title{
+        font-size: 26px;
+    }
+
+    div.subtitle{
+        font-size: 19px;
+    }
+
+    .content {
+        width: auto;
+        margin-left: 16px;
+        margin-right: 16px;
+        min-width: 284px;
+        font-size: 15px;
+    }
+}

@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<meta http-equiv='Content-Type' content='application/xhtml+xml; charset=utf-8' />
+        <meta name="viewport" content="width=device-width">
 		<title>YINING KARL LI | Fall 2012 Demoreel</title>
 		<LINK REL="SHORTCUT ICON" HREF="../../includes/favicon.png" />
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../includes/apple-touch-icon-144-precomposed.png">
@@ -10,34 +11,46 @@
         <link rel="apple-touch-icon-precomposed" href="../../includes/apple-touch-icon-57-precomposed.png">
 		<link rel='stylesheet' href="../../includes/css/style.css" type='text/css' media='screen' />
 		
-		<script type="text/javascript" src="../../includes/js/jquery.js"></script>
-		<script type="text/javascript" src="../../includes/js/navbar.js"></script>
+		<!-- <script type="text/javascript" src="../../includes/js/jquery.js"></script> -->
+		<!-- <script type="text/javascript" src="../../includes/js/navbar.js"></script> -->
 		
 		<link rel="stylesheet" href="https://use.typekit.net/yap3ink.css">
 		
-		<script type="text/javascript" src="../../includes/js/analytics.js"></script>	</head>
-	<div class="topmenubar">
-	<div class="toptext">
-		<div class="yiningkarlli">
-			<a href="../../index.html" class="nav">YINING KARL LI</a>
-		</div>
-		<div class="codeandvisuals">
-			<a href="http://blog.yiningkarlli.com" class="nav">CODE & VISUALS</a>
-		</div>
-		<div class="topmenu">
-			<a href="http://blog.yiningkarlli.com" class="nav">Blog</a> | <a href="../../projects.html" class="nav">Projects</a> | <a href="../../demoreel.html" class="nav">Reel</a> | <a href="../../resume.html" class="nav">Resume</a> | <a href="../../about.html" class="nav">About</a>
-		</div>
-	</div>
-</div>
+		<script type="text/javascript" src="../../includes/js/analytics.js"></script>
+    </head>
+
+    <header id="site-head">
+        <div class="vertical">
+            <div id="topmenubar">
+                <div class="topmenubar-toptext">
+                    <div class="topmenubar-inner">
+                        <div class="yiningkarlli">
+                            <a href="../../index.html" class="nav">YINING KARL LI</a>
+                        </div>
+                        <div class="codeandvisuals">
+                            <a href="http://blog.yiningkarlli.com" class="nav">CODE & VISUALS</a>
+                        </div>
+                        <div class="topmenu">
+                            <a href="http://blog.yiningkarlli.com" class="nav">Blog</a> | <a href="../../projects.html"
+                                class="nav">Projects</a> | <a href="../../about.html" class="nav">About</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
 	<body>
 		<div class="content">			
 			<div class="title">Fall 2012 Demoreel</div>	
 			<div class="subtitle">Please note that this an old, out of date reel. My current reel can be found <a href="../../demoreel.html">here</a>.</div>
-			<p><iframe src="https://player.vimeo.com/video/50127144" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-			<br><br>
+			<p>
+            <div class="embed-container">
+                <iframe src="https://player.vimeo.com/video/50127144?color=ffffff" frameborder="0"></iframe>
+            </div>
+            <br><br>
 			
-			<div class="title">Breakdown</div>	
+			<div class="title">Breakdown</div><br>
 			<div class="subtitle"><b>1. Multiple Interacting Jellos</b>: A Mass-Spring System Based Jello Simulator. C++, Python. 2012.</div>	
 			<p>This project began using a minimal framework supplied for the course CIS563: Physically Based Animation. The base framework included a simple scene description loader and bookkeeping code. On top of the framework, I implemented forward Euler, midpoint, and RK4 numerical integration schemes, particle-spring forces, support for shear, structural, and bend springs, collision detection against cubes, spheres, cylinders, and loaded OBJ meshes, KD-tree acceleration for collision detection, and support for multiple soft body objects colliding with each other, which enabled multiple jello cubes to interact with each other. The KD-tree acceleration and OBJ mesh support was enabled through ObjCore, a mesh and spatial acceleration structure library I wrote from scratch for use in multiple projects. In addition to core physical interaction features in the simulator, I also implemented support for exporting simulations to Maya for shading, lighting, and integration into scenes. The core physics simulator is implemented in C++, and Maya integration is achieved through Python. The core physics simulator runs in near real-time for a single jello cube, and simulation times scale approximately linearly with the number of additional jello cubes in the scene. All final renders were rendered with Vray from Maya.
 			<p>A significant challenge in this project came from numerical stability issues: finding simulation conditions that resulted in reasonably stable simulations required much finessing and experimentation. Both clips show simulations that utilized the more stable, but slightly slower RK4 integration scheme. In the first clip depicting jellos interacting with each other and a glass pitcher, the simulation remains stable for tens of thousands of frames. However, in the second clip depicting jellos interacting with a bowl and settling on a non-planar surface, the simulation destabilizes after a few thousand frames have elapsed unless non-physically based tricks such as forced velocity dampening are used. Initially, another major issue was speed: simulating large numbers of jellos proved to be incredibly slow, but accelerating collision detection with my KD-tree library provided a major performance boost, to the point where simulations with a single jello against large number of meshes can run in near real-time. Possible future extensions to this project include using tetrahedralized meshes as a basis for non-cube shaped jello, splitting and slicing jello, and more. 

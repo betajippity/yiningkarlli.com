@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<meta http-equiv='Content-Type' content='application/xhtml+xml; charset=utf-8' />
+        <meta name="viewport" content="width=device-width">
 		<title>YINING KARL LI | Ariel Fluid Simulator</title>
 		<LINK REL="SHORTCUT ICON" HREF="../includes/favicon.png" />
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../includes/apple-touch-icon-144-precomposed.png">
@@ -10,26 +11,34 @@
         <link rel="apple-touch-icon-precomposed" href="../includes/apple-touch-icon-57-precomposed.png">
 		<link rel='stylesheet' href="../includes/css/style.css" type='text/css' media='screen' />
 
-		<script type="text/javascript" src="../includes/js/jquery.js"></script>
-		<script type="text/javascript" src="../includes/js/navbar.js"></script>
+		<!-- <script type="text/javascript" src="../includes/js/jquery.js"></script>
+		<script type="text/javascript" src="../includes/js/navbar.js"></script> -->
 
 		<link rel="stylesheet" href="https://use.typekit.net/yap3ink.css">
 		
-		<script type="text/javascript" src="../includes/js/analytics.js"></script>		<link rel='stylesheet' href='projects.css' type='text/css' media='screen' />
+		<script type="text/javascript" src="../includes/js/analytics.js"></script>
+        <link rel='stylesheet' href='projects.css' type='text/css' media='screen' />
 	</head>
-	<div class="topmenubar">
-	<div class="toptext">
-		<div class="yiningkarlli">
-			<a href="../index.html" class="nav">YINING KARL LI</a>
-		</div>
-		<div class="codeandvisuals">
-			<a href="http://blog.yiningkarlli.com" class="nav">CODE & VISUALS</a>
-		</div>
-		<div class="topmenu">
-			<a href="http://blog.yiningkarlli.com" class="nav">Blog</a> | <a href="../projects.html" class="nav">Projects</a> | <a href="../demoreel.html" class="nav">Reel</a> | <a href="../resume.html" class="nav">Resume</a> | <a href="../about.html" class="nav">About</a>
-		</div>
-	</div>
-</div>
+    <header id="site-head">
+        <div class="vertical">
+            <div id="topmenubar">
+                <div class="topmenubar-toptext">
+                    <div class="topmenubar-inner">
+                        <div class="yiningkarlli">
+                            <a href="../index.html" class="nav">YINING KARL LI</a>
+                        </div>
+                        <div class="codeandvisuals">
+                            <a href="http://blog.yiningkarlli.com" class="nav">CODE & VISUALS</a>
+                        </div>
+                        <div class="topmenu">
+                            <a href="http://blog.yiningkarlli.com" class="nav">Blog</a> | <a href="../projects.html"
+                                class="nav">Projects</a> | <a href="../about.html" class="nav">About</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
 	<body>
 		<div class="content">
@@ -37,8 +46,8 @@
 			<div class="subtitle">A PIC/FLIP fluid simulation with OpenVDB and Houdini integration</div>
 
 			<div align="center" class="projectimagerow">
-				<div style="width:900px">
-				<a href="arielflip/images/fluid.2.png"><img src="arielflip/images/fluid.2.png" width="900" height="506" ></a>
+				<div>
+				<a href="arielflip/images/fluid.2.png"><img src="arielflip/images/fluid.2.png"></a>
 				<div class="caption">A frame from a "dambreak" scenario simulation. Simulated using Ariel, meshed via OpenVDB/Houdini, rendered with my own Takua Render.</div>
 				</div>
 			</div>
@@ -49,7 +58,7 @@
 
 				<p>This project has been under active development since 2013, although it is something more of a sandbox/hobby compared to the amount of focus I put into my main <a href="takuarender.html">renderer project</a>.
 
-				<p><b>Notes</b>: at the request of the current <a href="https://www.seas.upenn.edu/~cis563/">Spring 2015 CIS563</a> TAs, I have temporarily made this project's Github repository private and will re-open it at the end of the current CIS563 term. If you are not in CIS563 and are curious to see this repo, email me for access.
+				<!-- <p><b>Notes</b>: at the request of the current <a href="https://www.seas.upenn.edu/~cis563/">Spring 2015 CIS563</a> TAs, I have temporarily made this project's Github repository private and will re-open it at the end of the current CIS563 term. If you are not in CIS563 and are curious to see this repo, email me for access. -->
 			</div>
 
 			<div class="projecttextrow">
@@ -68,24 +77,37 @@
 			</div>
 
 			<div class="projecttextrow">
-				<div class="subtitle">Selected Videos</div>
+				<div class="subtitle">Selected Images and Videos</div>
 				<br>
 			</div>
+            <div align="center" class="projectimagerow">
+                <div>
+                    <a href="arielflip/images/dambreak.0200.png"><img src="arielflip/images/dambreak.0200.png"></a>
+                    <div class="caption">Another frame from a "dambreak" scenario simulation. Simulated using Ariel, meshed via
+                        OpenVDB/Houdini, rendered with Vray.</div>
+                </div>
+            </div>
 			<div align="center" class="projectimagerow">
-				<div style="width:900px">
-				<iframe src="https://player.vimeo.com/video/87050516?color=ffffff" width="900" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<div>
+                <div class="embed-container">
+                    <iframe src="https://player.vimeo.com/video/87050516?color=ffffff" frameborder="0"></iframe>
+                </div>
 				<div class="caption">A "dambreak" scenario simulation in a glass box. Simulated using Ariel, meshed via OpenVDB/Houdini, rendered with Vray. Soon to be re-rendered using Takua Render.</div>
 				</div>
 			</div>
 			<div align="center" class="projectimagerow">
-				<div style="width:900px">
-				<iframe src="https://player.vimeo.com/video/87331839?color=ffffff" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				<div>
+                <div class="embed-container">
+                    <iframe src="https://player.vimeo.com/video/87331839?color=ffffff" frameborder="0"></iframe>
+                </div>
 				<div class="caption">Same "dambreak" scenario above, but in particle view. Approximately a million particles on a 128x64x64 grid. Whiter particles indicate faster velocity and lower density, while bluer particles indicate slower velocity and higher density.</div>
 				</div>
 			</div>
 			<div align="center" class="projectimagerow">
-				<div style="width:900px">
-				<iframe src="https://player.vimeo.com/video/88078336?color=ffffff" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				<div>
+                <div class="embed-container">
+                    <iframe src="https://player.vimeo.com/video/88078336?color=ffffff" frameborder="0"></iframe>
+                </div>
 				<div class="caption">"Waterfall" scenario with fluid added to the simulation over time on a 64x64x64 grid. Whiter particles indicate faster velocity and lower density, while bluer particles indicate slower velocity and higher density.</div>
 				</div>
 			</div>

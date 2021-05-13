@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<meta http-equiv='Content-Type' content='application/xhtml+xml; charset=utf-8' />
+        <meta name="viewport" content="width=device-width">
 		<title>YINING KARL LI | GPU Pathtracer</title>
 		<LINK REL="SHORTCUT ICON" HREF="../includes/favicon.png" />
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../includes/apple-touch-icon-144-precomposed.png">
@@ -10,26 +11,33 @@
         <link rel="apple-touch-icon-precomposed" href="../includes/apple-touch-icon-57-precomposed.png">
 		<link rel='stylesheet' href="../includes/css/style.css" type='text/css' media='screen' />
 		
-		<script type="text/javascript" src="../includes/js/jquery.js"></script>
-		<script type="text/javascript" src="../includes/js/navbar.js"></script>
+		<!-- <script type="text/javascript" src="../includes/js/jquery.js"></script>
+		<script type="text/javascript" src="../includes/js/navbar.js"></script> -->
 		
 		<link rel="stylesheet" href="https://use.typekit.net/yap3ink.css">
 		
 		<script type="text/javascript" src="../includes/js/analytics.js"></script>		<link rel='stylesheet' href='projects.css' type='text/css' media='screen' />
 	</head>
-	<div class="topmenubar">
-	<div class="toptext">
-		<div class="yiningkarlli">
-			<a href="../index.html" class="nav">YINING KARL LI</a>
-		</div>
-		<div class="codeandvisuals">
-			<a href="http://blog.yiningkarlli.com" class="nav">CODE & VISUALS</a>
-		</div>
-		<div class="topmenu">
-			<a href="http://blog.yiningkarlli.com" class="nav">Blog</a> | <a href="../projects.html" class="nav">Projects</a> | <a href="../demoreel.html" class="nav">Reel</a> | <a href="../resume.html" class="nav">Resume</a> | <a href="../about.html" class="nav">About</a>
-		</div>
-	</div>
-</div>
+    <header id="site-head">
+        <div class="vertical">
+            <div id="topmenubar">
+                <div class="topmenubar-toptext">
+                    <div class="topmenubar-inner">
+                        <div class="yiningkarlli">
+                            <a href="../index.html" class="nav">YINING KARL LI</a>
+                        </div>
+                        <div class="codeandvisuals">
+                            <a href="http://blog.yiningkarlli.com" class="nav">CODE & VISUALS</a>
+                        </div>
+                        <div class="topmenu">
+                            <a href="http://blog.yiningkarlli.com" class="nav">Blog</a> | <a href="../projects.html"
+                                class="nav">Projects</a> | <a href="../about.html" class="nav">About</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
 	<body>
 		<div class="content">
@@ -37,8 +45,8 @@
 			<div class="subtitle">An experimental GPU Pathtracer, in collaboration with <a href="http://www.peterkutz.com">Peter Kutz</a></div>
 			
 			<div align="center" class="projectimagerow">
-				<div style="width:528px">
-				<a href="gpupathtracer/images/RedStack.png"><img src="gpupathtracer/images/RedStack.png" width="528" height="550" ></a>
+				<div>
+				<a href="gpupathtracer/images/RedStack.png"><img src="gpupathtracer/images/RedStack.png" max-width="528" max-height="550" ></a>
 				<div class="caption">A screenshot of our experimental renderer running in realtime on a scene of some spheres with subsurface scattering properties.</div>
 				</div>
 			</div>			
@@ -65,57 +73,61 @@
 			</div>
 			
 			<div class="projecttextrow">
-				<div class="subtitle">Selected Images/Videos</div>
+				<div class="subtitle">Selected Images and Videos</div>
 				<br>
-			</div>
-			<div align="center" class="projectimagerow">
-				<div style="width:900px">
-				<iframe src="https://player.vimeo.com/video/41109177?color=ffffff" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-				<div class="caption">Our final presentation video summarizing the capabilities of the final prototype renderer.</div>
-				</div>
 			</div>
 				
 			<div align="center" class="projectimagerow">
-				<div style="width:528px">
-				<a href="gpupathtracer/images/Dust.png"><img src="gpupathtracer/images/Dust.png" width="528" height="550" ></a>
+				<div>
+				<a href="gpupathtracer/images/Dust.png"><img src="gpupathtracer/images/Dust.png" max-width="528" max-height="550" ></a>
 				<div class="caption">A render demonstrating atmospheric scatter and absorption.</div>
 				</div>
 			</div>
 			
 			<div align="center" class="projectimagerow">
-				<div style="width:528px">
-				<a href="gpupathtracer/images/DustAtEyeLevel.png"><img src="gpupathtracer/images/DustAtEyeLevel.png" width="528" height="550" ></a>
+				<div>
+				<a href="gpupathtracer/images/DustAtEyeLevel.png"><img src="gpupathtracer/images/DustAtEyeLevel.png" max-width="528" max-height="550" ></a>
 				<div class="caption">A closer-up render demonstrating atmospheric scatter and absorption.</div>
 				</div>
 			</div>
 			
 			<div align="center" class="projectimagerow">
-				<div style="width:528px">
-				<a href="gpupathtracer/images/SoftFocus.png"><img src="gpupathtracer/images/SoftFocus.png" width="528" height="550" ></a>
+				<div>
+				<a href="gpupathtracer/images/SoftFocus.png"><img src="gpupathtracer/images/SoftFocus.png" max-width="528" max-height="550" ></a>
 				<div class="caption">A render demonstrating physically based depth of field and our simplified skydome system.</div>
 				</div>
 			</div>
 			
 			<div align="center" class="projectimagerow">
-				<div style="width:528px">
-				<a href="gpupathtracer/images/DepthOfField.png"><img src="gpupathtracer/images/DepthOfField.png" width="528" height="550" ></a>
+				<div>
+				<a href="gpupathtracer/images/DepthOfField.png"><img src="gpupathtracer/images/DepthOfField.png" max-width="528" max-height="550" ></a>
 				<div class="caption">A render showcasing subsurface scattering and physically based depth of field.</div>
 				</div>
 			</div>
 			
 			<div align="center" class="projectimagerow">
-				<div style="width:550px">
-				<a href="gpupathtracer/images/monkeyhead.png"><img src="gpupathtracer/images/monkeyhead.png" width="550" height="550" ></a>
+				<div>
+				<a href="gpupathtracer/images/monkeyhead.png"><img src="gpupathtracer/images/monkeyhead.png" max-width="550" max-height="550" ></a>
 				<div class="caption">The standard Suzanne test model rendered with subsurface scattering.</div>
 				</div>
 			</div>
 			
 			<div align="center" class="projectimagerow">
-				<div style="width:550px">
-				<a href="gpupathtracer/images/diamond.png"><img src="gpupathtracer/images/diamond.png" width="550" height="550" ></a>
+				<div>
+				<a href="gpupathtracer/images/diamond.png"><img src="gpupathtracer/images/diamond.png" max-width="550" max-height="550" ></a>
 				<div class="caption">A diamond mesh demonstrating transmission, refraction, and total internal reflection.</div>
 				</div>
 			</div>
+            
+            <div align="center" class="projectimagerow">
+                <div>
+                    <div class="embed-container">
+                        <iframe src="https://player.vimeo.com/video/41109177?color=ffffff" frameborder="0"></iframe>
+                    </div>
+                    <div class="caption">Our final presentation video summarizing the capabilities of the final prototype renderer.
+                    </div>
+                </div>
+            </div>
 			
 			<div class="projecttextrow">
 				<div class="subtitle">Acknowledgements</div>

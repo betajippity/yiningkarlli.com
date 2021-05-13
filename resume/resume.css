@@ -6,13 +6,12 @@ div.resumeheader{
 div.resumeleftbar {
 	float:left;
 	text-align: right ;
-	width:250px;
+	width:28%;
 }
 
 div.resumerightbar {
 	float:right;
-	width:600px;
-	margin-left: 50px;
+	width:68%;
 }
 
 div.resumerightbarsplitright {
@@ -29,4 +28,26 @@ div.resumerightbarsplitleft {
 div.resumerow {
 	float:left;
 	margin-bottom: 50px;
+    width:100%;
+}
+
+@media only screen and (max-width: 700px) {
+
+div.resumeleftbar {
+    float:left;
+    text-align: left ;
+    width:100%;
+    margin-bottom: 20px;
+}
+
+div.resumerightbar {
+    float:left;
+    width:100%;
+    text-align: left ;
+    margin-left: 0%;
+}
+
+div.resumerow {
+	margin-bottom: 20px;
+}
 }

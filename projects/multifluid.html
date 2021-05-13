@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<meta http-equiv='Content-Type' content='application/xhtml+xml; charset=utf-8' />
+        <meta name="viewport" content="width=device-width">
 		<title>YINING KARL LI | Multiple Interacting Fluids</title>
 		<LINK REL="SHORTCUT ICON" HREF="../includes/favicon.png" />
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../includes/apple-touch-icon-144-precomposed.png">
@@ -10,26 +11,34 @@
         <link rel="apple-touch-icon-precomposed" href="../includes/apple-touch-icon-57-precomposed.png">
 		<link rel='stylesheet' href="../includes/css/style.css" type='text/css' media='screen' />
 		
-		<script type="text/javascript" src="../includes/js/jquery.js"></script>
-		<script type="text/javascript" src="../includes/js/navbar.js"></script>
+		<!-- <script type="text/javascript" src="../includes/js/jquery.js"></script>
+		<script type="text/javascript" src="../includes/js/navbar.js"></script> -->
 		
 		<link rel="stylesheet" href="https://use.typekit.net/yap3ink.css">
 		
-		<script type="text/javascript" src="../includes/js/analytics.js"></script>		<link rel='stylesheet' href='projects.css' type='text/css' media='screen' />
+		<script type="text/javascript" src="../includes/js/analytics.js"></script>		
+        <link rel='stylesheet' href='projects.css' type='text/css' media='screen' />
 	</head>
-	<div class="topmenubar">
-	<div class="toptext">
-		<div class="yiningkarlli">
-			<a href="../index.html" class="nav">YINING KARL LI</a>
-		</div>
-		<div class="codeandvisuals">
-			<a href="http://blog.yiningkarlli.com" class="nav">CODE & VISUALS</a>
-		</div>
-		<div class="topmenu">
-			<a href="http://blog.yiningkarlli.com" class="nav">Blog</a> | <a href="../projects.html" class="nav">Projects</a> | <a href="../demoreel.html" class="nav">Reel</a> | <a href="../resume.html" class="nav">Resume</a> | <a href="../about.html" class="nav">About</a>
-		</div>
-	</div>
-</div>
+    <header id="site-head">
+        <div class="vertical">
+            <div id="topmenubar">
+                <div class="topmenubar-toptext">
+                    <div class="topmenubar-inner">
+                        <div class="yiningkarlli">
+                            <a href="../index.html" class="nav">YINING KARL LI</a>
+                        </div>
+                        <div class="codeandvisuals">
+                            <a href="http://blog.yiningkarlli.com" class="nav">CODE & VISUALS</a>
+                        </div>
+                        <div class="topmenu">
+                            <a href="http://blog.yiningkarlli.com" class="nav">Blog</a> | <a href="../projects.html"
+                                class="nav">Projects</a> | <a href="../about.html" class="nav">About</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
 	<body>
 		<div class="content">
@@ -37,8 +46,8 @@
 			<div class="subtitle">A Semi-Lagrangian fluid simulator supporting multiple fluids, in collaboration with <a href="http://www.danknowlton.com">Dan Knowlton</a></div>
 			
 			<div align="center" class="projectimagerow">
-				<div style="width:900px">
-				<a href="multifluid/images/bunnytest.png"><img src="multifluid/images/bunnytest.png" width="900" height="506" ></a>
+				<div>
+				<a href="multifluid/images/bunnytest.png"><img src="multifluid/images/bunnytest.png"></a>
 				<div class="caption">A frame from our simulator of a simulation involving a red and blue liquids cascading over the Stanford Bunny. All simulation work was done entirely with our simulator, rendering was done with Vray.</div>
 				</div>
 			</div>			
@@ -76,36 +85,54 @@
 			</div>
 			
 			<div class="projecttextrow">
-				<div class="subtitle">Selected Videos</div>
+				<div class="subtitle">Selected Images and Videos</div>
 				<br>
 			</div>
+            <div align="center" class="projectimagerow">
+                <div>
+                    <a href="multifluid/images/bunnytest2.png"><img src="multifluid/images/bunnytest2.png"></a>
+                    <div class="caption">Another frame from our simulator of a simulation involving a red and blue liquids cascading over
+                        the Stanford Bunny. All simulation work was done entirely with our simulator, rendering was done with Vray.
+                    </div>
+                </div>
+            </div>
 			<div align="center" class="projectimagerow">
-				<div style="width:900px">
-				<iframe src="https://player.vimeo.com/video/43436713?color=ffffff" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                <div>
+                <div class="embed-container">
+                    <iframe src="https://player.vimeo.com/video/43436713?color=ffffff" frameborder="0"></iframe>
+                </div>
 				<div class="caption">Two liquids interacting with a mesh of the Stanford Bunny, brought into Maya from our simulator and rendered out with Vray. The two liquids have equal starting volumes and identical viscosities.</div>
 				</div>
 			</div>
 			<div align="center" class="projectimagerow">
-				<div style="width:900px">
-				<iframe src="https://player.vimeo.com/video/40502967?color=ffffff" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>				
+				<div>
+                <div class="embed-container">
+                    <iframe src="https://player.vimeo.com/video/40502967?color=ffffff" frameborder="0"></iframe>
+                </div>			
 				<div class="caption">An early test of bringing fluid meshes into Maya for final rendering. Depicts a red liquid dropping into a wineglass.</div>
 				</div>
 			</div>
 			<div align="center" class="projectimagerow">
-				<div style="width:900px">
-				<iframe src="https://player.vimeo.com/video/41462347?color=ffffff" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>				
+				<div>
+                <div class="embed-container">
+                    <iframe src="https://player.vimeo.com/video/41462347?color=ffffff" frameborder="0"></iframe>
+                </div>			
 				<div class="caption">Three tests demonstrating viscosity inside of our simulator. The first test demonstrates two viscous fluids resisting mixing with each other. The second test demonstrates a highly viscous fluid behaving similarly to a deformable solid body. The third test demonstrates two less viscous fluids flowing on top of each other.</div>
 				</div>
 			</div>
 			<div align="center" class="projectimagerow">
-				<div style="width:900px">
-				<iframe src="https://player.vimeo.com/video/40341597?color=ffffff" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>				
+				<div>
+                <div class="embed-container">
+                    <iframe src="https://player.vimeo.com/video/40341597?color=ffffff" frameborder="0"></iframe>
+                </div>			
 				<div class="caption">Using the Stanford Dragon as a starting fluid volume. The mesh reconstruction system we used in this video predates our current modified particle level-set method based system and instead uses a standard marching cubes approach.</div>
 				</div>
 			</div>
 			<div align="center" class="projectimagerow">
-				<div style="width:900px">
-				<iframe src="https://player.vimeo.com/video/40280486?color=ffffff" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>				
+				<div>
+                <div class="embed-container">
+                    <iframe src="https://player.vimeo.com/video/40280486?color=ffffff" frameborder="0"></iframe>
+                </div>			
 				<div class="caption">OBJs can be loaded in and then converted into signed distance fields which can in turn be used as any other sort of bounding volume. Here we show this functionality by filling a cow with liquid.</div>
 				</div>
 			</div>

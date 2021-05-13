@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<meta http-equiv='Content-Type' content='application/xhtml+xml; charset=utf-8' />
+        <meta name="viewport" content="width=device-width">
 		<title>YINING KARL LI | Smoke Simulator/Volumetric Renderer</title>
 		<LINK REL="SHORTCUT ICON" HREF="../includes/favicon.png" />
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../includes/apple-touch-icon-144-precomposed.png">
@@ -10,26 +11,33 @@
         <link rel="apple-touch-icon-precomposed" href="../includes/apple-touch-icon-57-precomposed.png">
 		<link rel='stylesheet' href="../includes/css/style.css" type='text/css' media='screen' />
 		
-		<script type="text/javascript" src="../includes/js/jquery.js"></script>
-		<script type="text/javascript" src="../includes/js/navbar.js"></script>
+		<!-- <script type="text/javascript" src="../includes/js/jquery.js"></script>
+		<script type="text/javascript" src="../includes/js/navbar.js"></script> -->
 		
 		<link rel="stylesheet" href="https://use.typekit.net/yap3ink.css">
 		
 		<script type="text/javascript" src="../includes/js/analytics.js"></script>		<link rel='stylesheet' href='projects.css' type='text/css' media='screen' />
 	</head>
-	<div class="topmenubar">
-	<div class="toptext">
-		<div class="yiningkarlli">
-			<a href="../index.html" class="nav">YINING KARL LI</a>
-		</div>
-		<div class="codeandvisuals">
-			<a href="http://blog.yiningkarlli.com" class="nav">CODE & VISUALS</a>
-		</div>
-		<div class="topmenu">
-			<a href="http://blog.yiningkarlli.com" class="nav">Blog</a> | <a href="../projects.html" class="nav">Projects</a> | <a href="../demoreel.html" class="nav">Reel</a> | <a href="../resume.html" class="nav">Resume</a> | <a href="../about.html" class="nav">About</a>
-		</div>
-	</div>
-</div>
+    <header id="site-head">
+        <div class="vertical">
+            <div id="topmenubar">
+                <div class="topmenubar-toptext">
+                    <div class="topmenubar-inner">
+                        <div class="yiningkarlli">
+                            <a href="../index.html" class="nav">YINING KARL LI</a>
+                        </div>
+                        <div class="codeandvisuals">
+                            <a href="http://blog.yiningkarlli.com" class="nav">CODE & VISUALS</a>
+                        </div>
+                        <div class="topmenu">
+                            <a href="http://blog.yiningkarlli.com" class="nav">Blog</a> | <a href="../projects.html"
+                                class="nav">Projects</a> | <a href="../about.html" class="nav">About</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
 	<body>
 		<div class="content">
@@ -37,8 +45,8 @@
 			<div class="subtitle">A Semi-Lagrangian smoke simulation system and integrated volumetric renderer</div>
 			
 			<div align="center" class="projectimagerow">
-				<div style="width:900px">
-				<a href="smoke/images/smoke_frame.png"><img src="smoke/images/smoke_frame.png" width="900" height="506" ></a>
+				<div>
+				<a href="smoke/images/smoke_frame.png"><img src="smoke/images/smoke_frame.png"></a>
 				<div class="caption">A frame from from a 100x100x100 size grid smoke simulation, rendered with a pseudo-blackbody effect with my volumetric renderer.</div>
 				</div>
 			</div>			
@@ -73,31 +81,53 @@
 			</div>
 			
 			<div class="projecttextrow">
-				<div class="subtitle">Selected Videos</div>
+				<div class="subtitle">Selected Images and Videos</div>
 				<br>
 			</div>
+            <div align="center" class="projectimagerow">
+                <div>
+                    <a href="smoke/images/cloud1.png"><img src="smoke/images/cloud1.png"></a>
+                    <div class="caption">A procedurally generated cloud, rendered with my volumetric renderer.</div>
+                </div>
+            </div>
+
+            <div align="center" class="projectimagerow">
+                <div>
+                    <a href="smoke/images/blackbody2.png"><img src="smoke/images/blackbody2.png"></a>
+                    <div class="caption">An cloud rendered with my volumetric renderer with pseudo-blackbody illumination.</div>
+                </div>
+            </div>
+
 			<div align="center" class="projectimagerow">
-				<div style="width:900px">
-				<iframe src="https://player.vimeo.com/video/41543438?color=ffffff" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+				<div>
+                <div class="embed-container">
+				<iframe src="https://player.vimeo.com/video/41543438?color=ffffff"></iframe>
+                </div>
 				<div class="caption"> A smoke simulation running on a 100x100x100 size grid, rendered with a pseudo-blackbody effect with my volumetric renderer.</div>
 				</div>
 			</div>
 			<div align="center" class="projectimagerow">
-				<div style="width:900px">
-				<iframe src="https://player.vimeo.com/video/38057955?color=ffffff" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>				
+				<div>
+                <div class="embed-container">
+				<iframe src="https://player.vimeo.com/video/38057955?color=ffffff"></iframe>		
+                </div>
 				<div class="caption">A smoke simulation running on a 100x100x50 size grid, visualized with the simulator's live OpenGL view.</div>
 				</div>
 			</div>
 			<div align="center" class="projectimagerow">
-				<div style="width:900px">
-				<iframe src="https://player.vimeo.com/video/53634239?color=ffffff" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>				
+				<div>
+                <div class="embed-container">
+				<iframe src="https://player.vimeo.com/video/53634239?color=ffffff"></iframe>	
+                </div>
 				<div class="caption">A procedurally generated cloud, created with Simplex noise and animated in Maya, rendered with my volumetric renderer.</div>
 				</div>
 			</div>
 			
 			<div align="center" class="projectimagerow">
-				<div style="width:900px">
-				<iframe src="https://player.vimeo.com/video/53714601" width="900" height="506" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>				
+				<div>
+                <div class="embed-container">
+				<iframe src="https://player.vimeo.com/video/53714601?color=ffffff"></iframe>		
+                </div>
 				<div class="caption">An expanding cloud rendered with my volumetric renderer with pseudo-blackbody illumination.</div>
 				</div>
 			</div>

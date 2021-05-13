@@ -4,17 +4,17 @@ a.projectbutton{
 	display: block;
 	width: 425px;
 	height: 243px;
-	padding-top: 182px;
+    padding-top: 182px;
 }
 
-a.projectbutton2{
+/* a.projectbutton2{
 	color: black;
 	font: 35px "futura-pt";	
 	display: block;
 	width: 425px;
 	height: 265px;
 	padding-top: 160px;
-}
+} */
 
 span.projecttitle {
 	background-color: white;
@@ -24,18 +24,20 @@ span.projecttitle {
 div.projectleftbar {
 	float:left;
 	text-align: center ;
-	width:425px;
-	margin-bottom: 25px;
+	/* width:425px; */
+    width: 48%;
+	margin-bottom: 25px; 
 	margin-top: 25px;
 }
 
 div.projectrightbar {
 	float:right;
-	width:425px;
+	/* width:425px; */
+    width: 48%;
 	text-align: center ;
-	margin-left: 50px;
+	/* margin-left: 50px; */
 	margin-bottom: 25px;
-	margin-top: 25px;
+    margin-top: 25px;
 }
 
 div.projectmenu {
@@ -45,7 +47,7 @@ div.projectmenu {
 div.projectrow {
 	margin-top: 25px;
 	margin-bottom: 25px;
-	width:900px;
+    width: 100%;
 }
 
 div.projectimagerow {
@@ -54,18 +56,16 @@ div.projectimagerow {
 	float:center;
 }
 
-
 div.projecttextleftbar {
 	float:left;
 	text-align: left ;
-	width:425px;
+	width:48%;
 }
 
 div.projecttextrightbar {
 	float:right;
-	width:425px;
+	width:48%;
 	text-align: left ;
-	margin-left: 50px;
 }
 
 div.projecttextrow {
@@ -78,6 +78,49 @@ div.caption {
 	padding-right:9px;
 	text-align: center ;
 	font-size:14px;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 1140px) {
+
+    div.projectleftbar {
+        position: relative;
+        float:left;
+        text-align: center ;
+        width: 100%;
+        margin-bottom: 25px; 
+        margin-top: 25px;
+        /* margin-left: 30% */
+    }
+
+    div.projectrightbar {
+        position: relative;
+        float:left;
+        width: 100%;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        /* margin-left: 30% */
+    }
+
+    a.projectbutton{
+        display: table;
+        margin: auto
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    div.projecttextleftbar {
+        float:left;
+        text-align: left ;
+        width:100%;
+    }
+
+    div.projecttextrightbar {
+        float:left;
+        width:100%;
+        text-align: left ;
+        margin-top:-15px;
+    }
 }
 
 #takua {
@@ -166,9 +209,14 @@ div.newprojectleftbar {
 
 div.newprojectrightbar {
     float:right;
-    width:450px;
-    margin-left: 50px;
+    width: calc(100% - 450px);
     text-align: left ;
+}
+
+.newprojectleftbar img {
+    display: block;
+    width: 100%;
+    object-fit: scale-down;
 }
 
 div.newprojectrow {
@@ -180,4 +228,109 @@ div.newprojectrow {
     margin: 0;
     padding: 0;
     margin-left: 50px;
+}
+
+pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+@media only screen and (max-width: 1145px) {
+    div.newprojectleftbar {
+        float:left;
+        text-align: center ;
+        width:350px;
+    }
+
+    div.newprojectrightbar {
+        float:right;
+        width: calc(100% - 400px);
+        text-align: left ;
+    }
+
+    .newprojectleftbar img {
+        margin-top:-10px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    div.newprojectleftbar {
+        float:left;
+        text-align: center ;
+        width:400px;
+        position: relative;
+        margin-left: calc((100% - 400px) / 2);
+    }
+
+    div.newprojectrightbar {
+        float:left;
+        width:400px;
+        text-align: left ;
+        position: relative;
+        margin-left: calc((100% - 400px) / 2);
+        margin-bottom:-20px;
+        border-bottom: solid;
+        border-bottom-color: #808080;
+    }
+
+    .newprojectleftbar img {
+        margin-top:5px;
+        margin-bottom:20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    div.newprojectleftbar {
+        float:left;
+        text-align: center ;
+        width:300px;
+        position: relative;
+        margin-left: calc((100% - 300px) / 2);
+    }
+
+    div.newprojectrightbar {
+        float:left;
+        width:300px;
+        text-align: left ;
+        position: relative;
+        margin-left: calc((100% - 300px) / 2);
+        margin-bottom:-25px;
+    }
+
+    .newprojectleftbar img {
+        margin-top:-20px;
+        margin-bottom:-5px;
+    }
+
+    div.caption {
+        font-size:12px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    div.newprojectleftbar {
+        float:left;
+        text-align: center ;
+        width:250px;
+        position: relative;
+        margin-left: calc((100% - 250px) / 2);
+    }
+
+    div.newprojectrightbar {
+        float:left;
+        width:250px;
+        text-align: left ;
+        position: relative;
+        margin-left: calc((100% - 250px) / 2);
+        margin-bottom:-30px;
+    }
+
+    .newprojectleftbar img {
+        margin-top:-30px;
+        margin-bottom:-20px;
+    }
 }

@@ -129,46 +129,6 @@ a.nav:active {
     position: absolute;
 }
 
-.topmenubar-hover {
-	color:white;
-	background-color: #3d3d3d ;
-	height: 45px ;
-	line-height: 50px ;
-	position: fixed ;
-	text-align: center ;
-	z-index: 1000 ;
-	opacity: .9;
-	margin-top: -102px;
-}
-
-.topmenubar-hover .codeandvisuals {
-	font: 0px "futura-pt";
-	font-weight: 0;
-}
-
-.topmenubar-hover .toptext {
-    width: 80%;
-	left: 50%;
-	margin-left: -450px;
-	margin-top: 5px;
-	position: fixed;
-	text-align: left ;
-	z-index: 1000 ;
-}
-
-.topmenubar-hover .topmenu {
-	font: 20px "futura-pt";
-	font-weight: 300;
-	text-align: right ;
-	margin-top: -30px;
-}
-
-.topmenubar-hover .yiningkarlli {
-	font: 30px "futura-pt";
-	font-weight: 500;
-	margin-top: -2.5px;
-}
-
 div.topbar-s {
 	top: 0px ;
 }

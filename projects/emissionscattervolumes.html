@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv='Content-Type' content='application/xhtml+xml; charset=utf-8' />
+        <meta name="viewport" content="width=device-width">
+        <title>Unbiased Emission and Scattering Importance Sampling For Heterogeneous Volumes</title>
+        <LINK REL="SHORTCUT ICON" HREF="../includes/favicon.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../includes/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../includes/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../includes/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="../includes/apple-touch-icon-57-precomposed.png">
+        <link rel='stylesheet' href="../includes/css/style.css" type='text/css' media='screen' />
+
+        <!-- <script type="text/javascript" src="../includes/js/jquery.js"></script>
+        <script type="text/javascript" src="../includes/js/navbar.js"></script> -->
+
+        <link rel="stylesheet" href="https://use.typekit.net/yap3ink.css">
+        
+        <script type="text/javascript" src="../includes/js/analytics.js"></script>      
+        <link rel='stylesheet' href='projects.css' type='text/css' media='screen' />
+    </head>
+    <header id="site-head">
+        <div class="vertical">
+            <div id="topmenubar">
+                <div class="topmenubar-toptext">
+                    <div class="topmenubar-inner">
+                        <div class="yiningkarlli">
+                            <a href="../index.html" class="nav">YINING KARL LI</a>
+                        </div>
+                        <div class="codeandvisuals">
+                            <a href="http://blog.yiningkarlli.com" class="nav">CODE & VISUALS</a>
+                        </div>
+                        <div class="topmenu">
+                            <a href="http://blog.yiningkarlli.com" class="nav">Blog</a> | <a href="../projects.html"
+                                class="nav">Projects</a> | <a href="../about.html" class="nav">About</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <body>
+        <div class="content">
+            <div class="title">Unbiased Emission and Scattering Importance Sampling For Heterogeneous Volumes</div>
+            <div class="subtitle">
+                <a href="http://rendering-memo.blogspot.com">Wei-Feng Wayne Huang</a>, <a href="http://www.peterkutz.com">Peter Kutz</a>, <a href="https://www.yiningkarlli.com">Yining Karl Li</a>, and <a href="http://dl.acm.org/author_page.cfm?id=99658729701&coll=DL&dl=ACM&trk=0">Matt Jen-Yuan Chiang</a>
+                <br>ACM SIGGRAPH 2021 Talks. Article No. 3</p>
+            </div>
+
+            <div align="center" class="projectimagerow">
+                <div>
+                    <a href="emissionscattervolumes/images/teaser.png"><img src="emissionscattervolumes/images/teaser.png"></a>
+                    <div class="caption">A torch embedded in thin anisotropic heterogeneous mist. Equal-time comparison of a conventional null-collision approach (left), incorporating our emission sampling strategy (middle), and additionally combining with our scattering sampling strategy via MIS (right).</div>
+                </div>
+            </div>
+
+            <div class="projecttextrow">
+                <div class="subtitle">Abstract</div>
+                <p>We present two new distance-sampling methods for production volume path tracing. We extend the null-collision integral formulation to efficiently gather heterogeneous volumetric emission, achieving higher-quality results. Additionally, we propose a tabulation-based approach to importance sample volumetric in-scattering through a spatial guiding data structure. Our methods improve the sampling efficiency for scenarios where low-order heterogeneous scattering dominates, which tends to cause high variance renderings with existing null-collision methods.</p>
+            </div>
+
+            <div class="projecttextrow">
+                <div class="subtitle">Downloads</div><p>
+                <div class="downloads">
+                    Publication:
+                    <p><a href="emissionscattervolumes/emissionscattervolumes.pdf">Paper, PDF (2.6 MB)</a></p>
+                    <p><a href="https://dl.acm.org/doi/10.1145/3450623.3464644">Official Publisher's Version (External Link)</a></p>
+                    <!-- Presentation Slides:
+                    <p><a href="emissionscattervolumes/emissionscattervolumes_slides.pdf">Slides, PDF (XX MB)</a></p>
+                    <p><a href="emissionscattervolumes/emissionscattervolumes_notes.pdf">Presenter Notes, PDF (XX MB)</a></p> -->
+                    Video:
+                    <p><a href="emissionscattervolumes/siggraph2021_volumes_comparison.mp4">Comparison Video, MP4 (196.8 MB)</p>
+                </div>
+                <br>
+            </div>
+
+            <div class="projecttextrow">
+                <div class="subtitle">Text Reference</div>
+                    <p> <a href="http://rendering-memo.blogspot.com">Wei-Feng Wayne Huang</a>, <a href="http://www.peterkutz.com">Peter Kutz</a>, <a href="https://www.yiningkarlli.com">Yining Karl Li</a>, and <a href="http://dl.acm.org/author_page.cfm?id=99658729701&coll=DL&dl=ACM&trk=0">Matt Jen-Yuan Chiang</a>. Unbiased Emission and Scattering Importance Sampling For Heterogeneous Volumes. <i><b>ACM SIGGRAPH 2021</b> Talks</i>. Article 3, Aug 2021.</p>
+            </div>
+
+            <div class="projecttextrow">
+                <div class="subtitle">Bibtex Reference</div>
+                    <p><pre><span class="inner-pre" style="font-size: 12px">@article{Huang2021VolumeEmissionScatterSampling,
+    author = {Huang, Wei-Feng Wayne and Kutz, Peter and Li, Yining Karl and Chiang, Matt Jen-Yuan},
+    title = {Unbiased Emission and Scattering Importance Sampling For Heterogeneous Volumes},
+    journal = {ACM SIGGRAPH 2021 Talks},
+    month = aug,
+    year = {2021},
+    articleno = {3},
+    doi = {10.1145/3450623.3464644},
+}</span></pre></p>
+            </div>
+
+            <div class="projecttextrow">
+                <div class="subtitle">Acknowledgements</div>
+                <p>We thank the Hyperion development team for supporting this project, the many artists at Walt Disney Animation Studios who tested these techniques, the leadership of Raya and the Last Dragon for adopting these techniques in production, and finally our paper reviewers for providing invaluable comments and suggestions.</p>
+            </div>
+
+             <div class="projecttextrow">
+                <div class="subtitle">Copyright Disclaimer</div>
+                <p>© The Author(s) / ACM. This is the author's version of the work. It is posted here for your personal use. Not for redistribution. The Definitive Version of Record is available at <a href="http://doi.acm.org">doi.acm.org</a>.</p>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+

@@ -134,18 +134,18 @@
             /* Fading animation */
             .fade {
               -webkit-animation-name: fade;
-              -webkit-animation-duration: 0.1s;
+              -webkit-animation-duration: 0.5s;
               animation-name: fade;
-              animation-duration: 0.1s;
+              animation-duration: 0.5s;
             }
             
             @-webkit-keyframes fade {
-              from {opacity: 1} 
+              from {opacity: .75} 
               to {opacity: 1}
             }
             
             @keyframes fade {
-              from {opacity: 1} 
+              from {opacity: .75} 
               to {opacity: 1}
             }
 		</style>
@@ -155,22 +155,22 @@
 
                 <div class="mySlides fade">
                     <div class="slide-container">
+                        <img src="banners/wdas_encanto.jpg" style="width:100%">
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <div class="text">A frame from Disney Animation's <a href="https://blog.yiningkarlli.com/2021/11/encanto.html">Encanto</a>, rendered entirely using Disney's Hyperion Renderer. I worked on this movie!</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="slide-container">
                         <img src="banners/takua_forestpath.jpg" style="width:100%">
                         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                         <a class="next" onclick="plusSlides(1)">&#10095;</a>
                     </div>
                     <div class="text">A path through a forest, rendered entirely with my hobby renderer, <a href="projects/takuarender.html">Takua Renderer</a>.</div>
                 </div>
-
-                <div class="mySlides fade">
-                    <div class="slide-container">
-                        <img src="banners/wdas_encanto.jpg" style="width:100%">
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    </div>
-                    <div class="text">A frame from Disney Animation's <a href="https://www.youtube.com/watch?v=CaimKeDcudo">Encanto</a>, rendered entirely using Disney's Hyperion Renderer. I worked on this movie!</div>
-                </div>
-    
+                
                 <div class="mySlides fade">
                     <div class="slide-container">
                         <img src="banners/takua_room.jpg" style="width:100%">
@@ -182,11 +182,20 @@
 
                 <div class="mySlides fade">
                     <div class="slide-container">
+                        <img src="banners/rac8.jpg" style="width:100%">
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <div class="text">My entry to Pixar's RenderMan "The Iconoclasts" Art Challenge, for which I got an honorable mention. Blog post coming soon!</div>
+                </div>
+                    
+                <div class="mySlides fade">
+                    <div class="slide-container">
                         <img src="banners/rac6.jpg" style="width:100%">
                         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                         <a class="next" onclick="plusSlides(1)">&#10095;</a>
                     </div>
-                    <div class="text">My first-place winning entry to Pixar's RenderMan Shipshape Art Challenge. See <a href="https://blog.yiningkarlli.com/2020/07/shipshape-renderman-challenge.html">blog post</a> for more.</div>
+                    <div class="text">My first-place winning entry to Pixar's RenderMan "Shipshape" Art Challenge. See <a href="https://blog.yiningkarlli.com/2020/07/shipshape-renderman-challenge.html">blog post</a> for more.</div>
                 </div>
                     
                 <div class="mySlides fade">
@@ -256,13 +265,14 @@
                 <span class="dot" onclick="currentSlide(8)"></span> 
                 <span class="dot" onclick="currentSlide(9)"></span> 
                 <span class="dot" onclick="currentSlide(10)"></span> 
+                <span class="dot" onclick="currentSlide(11)"></span> 
             </div>
              
              
             <br>
             <div class = "frontpagerow">
                 <div class="frontpageleftbar">
-                    <b>Hello, I'm Karl!</b>
+                    <b>Hello, I'm Karl (or, in Chinese: 黎忆宁)!</b>
                     <p>Born in Hannover, Germany and raised in Philadelphia, Pennsylvania, I am a senior software engineer at <a href="http://www.disneyanimation.com/">Walt Disney Animation Studios</a> working on Disney's <a href="http://www.disneyanimation.com/technology/innovations/hyperion">Hyperion Renderer</a>. As part of the Hyperion team, I've worked on every Disney Animation theatrical release starting from Zootopia. I am very happily married to <a href="http://harmonymli.com">Harmony M. Li</a>!
 
                     <p>My areas of interest cover all things production rendering, including topics such as advanced light transport, renderer architectures, raytracing on interesting hardware, volume rendering, surface appearance, and more.</p>
@@ -270,10 +280,10 @@
                 </div>
                 <div class="frontpagerightbar">
                     <b>News:</b>
+                    <p>2021.12.09: Our Fall 2022 film, <a href="https://twitter.com/DisneyAnimation/status/1468943681587531777">Strange World</a>, is announced!</p>
+                    <p>2021.11.24: <a href="https://blog.yiningkarlli.com/2021/11/encanto.html">Encanto</a> is out in theaters!</p>
+                    <p>2021.11.16: My entry to <a href="https://renderman.pixar.com/news/renderman-the-iconoclasts-art-challenge-final-results">Pixar's RenderMan 'The Iconoclasts' Art Challenge</a> got an honorable mention!</p>
                     <p>2021.10.25: New <a href="https://blog.yiningkarlli.com/2021/10/takua-on-m1-max.html">blog post</a> about the Apple M1 Max chip.</p>
-                    <p>2021.09.29: New <a href="https://www.youtube.com/watch?v=CaimKeDcudo">main trailer</a> for Encanto is released!</p>
-                    <p>2021.09.07: New <a href="https://blog.yiningkarlli.com/2021/09/neon-vs-sse.html">blog post</a> comparing SIMD programming on x86-64 and arm64.</p>
-                    <p>2021.08.06: Our SIGGRAPH 2021 Talk "<a href="https://www.yiningkarlli.com/projects/emissionscattervolumes.html">Unbiased Emission and Scattering Importance Sampling For Heterogeneous Volumes</a>" is now available online!</p>
                     <p><a href="news.html">Older news...</a></p>
                 </div>
             </div>
@@ -287,7 +297,8 @@
           return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
         }
         
-        var slideIndex = getRandomInt(1,11);
+        var slideIndex = getRandomInt(1,12);
+        slideIndex = 1; // Set first image to always be Encanto for Encanto release!
         var waitToAdvanceAutoSlide = false;
         var firstLoad = true;
         showSlidesAuto();
@@ -299,26 +310,22 @@
         function currentSlide(n) {
           showSlides(slideIndex = n);
         }
-        
-        function showSlides2() {
-            showSlides(slideIndex += 1);
-        }
-        
+
         function showSlides(n) {
+          waitToAdvanceAutoSlide = true;
           var i;
           var slides = document.getElementsByClassName("mySlides");
           var dots = document.getElementsByClassName("dot");
           if (n > slides.length) {slideIndex = 1}    
           if (n < 1) {slideIndex = slides.length}
           for (i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";  
+              slides[i].style.display = "none"; 
           }
           for (i = 0; i < dots.length; i++) {
               dots[i].className = dots[i].className.replace(" active", "");
           }
-          slides[slideIndex-1].style.display = "block";  
+          slides[slideIndex-1].style.display = "block";
           dots[slideIndex-1].className += " active";
-          waitToAdvanceAutoSlide = true;
         }
         
         function showSlidesAuto() {
@@ -343,7 +350,7 @@
           } else {
             waitToAdvanceAutoSlide = false;
           }
-          setTimeout(showSlidesAuto, 5000); // Change image every 5 seconds
+          setTimeout(showSlidesAuto, 6500); // Change image every 6.5 seconds
         }
         </script>
 	</body>
